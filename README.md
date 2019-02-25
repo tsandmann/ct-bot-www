@@ -10,7 +10,7 @@ Inzwischen lebt das Projekt nach dem Erscheinen des letzten c't-Artikels 2011 in
 - [Matrix](https://de.wikipedia.org/wiki/Matrix_%28Kommunikationsprotokoll%29) (bspw. mit dem Client [Riot.im](https://riot.im), frei, föderal): [Direktzugang zum ct-Bot-Channel](https://riot.im/app/#/room/#ctbot:matrix.org) über die Web-App von Riot.im. Ein Beitritt ist hier auch als Gast und ohne Registrierung möglich.
 - [Slack](https://de.wikipedia.org/wiki/Slack_%28Software%29) (proprietär, zentralisiert, aber mehr Funktionen als Riot): [Zugang zum ct-Bot-Channel](https://ct-bot-slack.herokuapp.com).
 
-#### Hinweise
+##### Hinweise
 - Matrix und Slack sind gebridged (synchronisiert), zeigen also dieselben Inhalte und können je nach persönlicher Präferenz gewählt werden.
 - Manchmal kann das Versenden größerer Dateien/Bilder dazu führen, dass im jeweils anderen Protokoll nichts angezeigt wird. Daher besser immer einen Post hinterherschicken, der irgendwie erwähnt, man habe gerade (bspw.) ein Bild geschickt.
 
