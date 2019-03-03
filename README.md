@@ -4,6 +4,8 @@ c't-Bot und c't-Sim gehören zusammen und sind ein Roboterprojekt, das von der Z
 
 Inzwischen lebt das Projekt nach dem Erscheinen des letzten c't-Artikels 2011 in der entstandenen Community weiter. Derzeit befindet sich das Projekt in einer Phase der Neuorganisation durch die Community: insbesondere die gesamte Dokumentation wird derzeit neu aufbereit und Pläne für eine aktualisierte Version der Bot-Hardware bestehen auch schon.
 
+<img src="images/ctbot.png" style="float: left; margin-left:2em; height: 64px;" />
+
 ## Community und Support
 
 ### Chat/Instant Messenger
