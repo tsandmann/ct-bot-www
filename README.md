@@ -29,7 +29,7 @@ Der aktuelle Stand der Dokumentation ist im Git-Repository [**ct-Bot-doku**](htt
 ### Bisherige Projektdokumentation
  - Die [ehemalige, offizielle Projektseite](https://www.heise.de/ct/artikel/c-t-Bot-und-c-t-Sim-284119.html) von der c't bei Heise wird nicht mehr aktuell gepflegt und enthält somit zum Teil auch stark veraltete Inhalte.
  - Zusammen mit dem Community-Forum ist auch ein Wiki enstanden, das unter [wiki.ctbot.de](https://wiki.ctbot.de) zu finden ist. Dort finden sich vielen Infos und Dokumentationen zum Projekt, die im Zuge der derzeitigen Neustrukturierung des Projekts jedoch nicht mehr aktiv gepflegt werden. 
- - Die Liste an [FAQs](https://www.heise.de/ct/artikel/FAQ-fuer-c-t-Bot-und-c-t-SIM-291940.html) nicht mehr aktuell gepflegt und enthält somit zum Teil auch veraltete Inhalte.
+ - Die Liste an [FAQs](https://www.heise.de/ct/artikel/FAQ-fuer-c-t-Bot-und-c-t-SIM-291940.html) wird nicht mehr gepflegt und enthält somit zum Teil auch veraltete Inhalte.
  - Das [Archiv der ehemaligen Mailingliste](https://www.heise.de/ct/newsletter/archiv/ct-bot-entwickler/) enthält noch den ein oder anderen Schatz an Informationen, die allerdings auch nicht mehr aktuell sein müssen.
 
 ## Source Code
