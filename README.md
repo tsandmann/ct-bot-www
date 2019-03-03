@@ -1,4 +1,4 @@
-# Willkommen bei c't-Bot- und c't-Sim
+# Willkommen bei c't-Bot- & c't-Sim
 
 c't-Bot und c't-Sim gehören zusammen und sind ein Roboterprojekt, das von der Zeitschrift c't Anfang des Jahres 2006 gestartet  und in einer Reihe von 16 Artikeln beschrieben wurde. Das Ziel des c't-Bots war und ist dabei, möglichst Vielen den Zugang zu dem spannenden Thema der Robotik zu eröffnen. Das Projekt besteht aus zwei Teilen: Dem eigentlichen Roboter c't-Bot und dem passenden Simulator c't-Sim.
 
