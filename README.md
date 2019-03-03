@@ -24,11 +24,10 @@ Unter [www.ctbot.de](https://www.ctbot.de) ist das Community-Forum zum c't-Bot u
 ### Zukünftige Projektdokumentation
 Derzeit befindet sich die gesamte Projektdokumentation in der Überarbeitung (siehe auch [Diskussion im Forum](https://www.ctbot.de/viewtopic.php?f=34&t=1219)). Im Zuge dieser sollen sowohl sämtliche Informationen des ehemaligen Trac-Wikis als auch des Community-Wikis in eine gemeinsame Projektdokumentation integriert werden.
 
-Der aktuelle Stand der Dokumentation ist im [Git-Repository ct-Bot-doku](https://github.com/Nightwalker-87/ct-bot-doku) auf GitHub zu finden. Die Inhalte es ehemaligen Trac-Wikis von Heise sind als Übergangslösung [hier](https://github.com/Nightwalker-87/ct-bot-doku/blob/master/_tmp_trac_wiki_export/readme.md) verfügbar
+Der aktuelle Stand der Dokumentation ist im Git-Repository [**ct-Bot-doku**](https://github.com/Nightwalker-87/ct-bot-doku) auf GitHub zu finden. Die Inhalte es ehemaligen Trac-Wikis von Heise sind als Übergangslösung [hier](https://github.com/Nightwalker-87/ct-bot-doku/blob/master/_tmp_trac_wiki_export/readme.md) verfügbar
 
 ### Bisherige Projektdokumentation
  - Die [ehemalige, offizielle Projektseite](https://www.heise.de/ct/artikel/c-t-Bot-und-c-t-Sim-284119.html) von der c't bei Heise wird nicht mehr aktuell gepflegt und enthält somit zum Teil auch stark veraltete Inhalte.
-
  - Zusammen mit dem Community-Forum ist auch ein Wiki enstanden, das unter [wiki.ctbot.de](https://wiki.ctbot.de) zu finden ist. Dort finden sich vielen Infos und Dokumentationen zum Projekt, die im Zuge der derzeitigen Neustrukturierung des Projekts jedoch nicht mehr aktiv gepflegt werden. 
 
 ## Source Code
@@ -42,8 +41,8 @@ Das Software-Framework des c’t-Bot erfüllt sehr unterschiedliche Anforderunge
  - Einmal entwickelte Unterprogramme (im Framework Verhalten genannt) von ganz rudimentären wie `bot_turn()` bis zu komplexen wie `bot_solve_maze()` lassen sich weiterverwenden und in andere Routinen einbauen.
  
 ### Offizielle Code-Repositories
-- [ct-Bot](https://github.com/tsandmann/ct-bot) Code-Repository auf GitHub.
-- [ct-Sim](https://github.com/tsandmann/ct-sim) Code-Repository auf GitHub.
+- [**ct-Bot**](https://github.com/tsandmann/ct-bot) Code-Repository auf GitHub.
+- [**ct-Sim**](https://github.com/tsandmann/ct-sim) Code-Repository auf GitHub.
 
 ### Weitere Repositories
 - [ct-bot-hw](https://github.com/tsandmann/ct-bot-hw) Repository für das c't-Bot Hardware-Design. 
