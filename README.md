@@ -2,7 +2,7 @@
 
 c't-Bot und c't-Sim gehören zusammen und sind ein Roboterprojekt, das von der Zeitschrift c't Anfang des Jahres 2006 gestartet  und in einer Reihe von 16 Artikeln beschrieben wurde. Das Ziel des c't-Bots war und ist dabei, möglichst Vielen den Zugang zu dem spannenden Thema der Robotik zu eröffnen. Das Projekt besteht aus zwei Teilen: Dem eigentlichen Roboter c't-Bot und dem passenden Simulator c't-Sim.
 
-Inzwischen lebt das Projekt nach dem Erscheinen des letzten c't-Artikels 2011 in der entstandenen Community weiter. Derzeit befindet sich das Projekt in einer Phase der Neuorganisation durch die Community: insbesondere die gesamte Dokumentation (CC BY-SA lizensiert) wird derzeit neu aufbereit und Pläne für eine aktualisierte Version der Bot-Hardware bestehen auch schon.
+Inzwischen lebt das Projekt nach dem Erscheinen des letzten c't-Artikels 2011 in der entstandenen Community weiter. Derzeit befindet sich das Projekt in einer Phase der Neuorganisation durch die Community: insbesondere die gesamte Dokumentation wird derzeit neu aufbereit und Pläne für eine aktualisierte Version der Bot-Hardware bestehen auch schon.
 
 ## Community und Support
 
@@ -21,8 +21,8 @@ Unter [www.ctbot.de](https://www.ctbot.de) ist das Community-Forum zum c't-Bot u
 
 ## Dokumentation
 
-### Zukünftige Projektdokumentation
-Derzeit befindet sich die gesamte Projektdokumentation in der Überarbeitung (siehe auch [Diskussion im Forum](https://www.ctbot.de/viewtopic.php?f=34&t=1219)). Im Zuge dieser sollen sowohl sämtliche Informationen des ehemaligen Trac-Wikis als auch des Community-Wikis in eine gemeinsame Projektdokumentation integriert werden.
+### Zukünftige [Projektdokumentation](https://github.com/Nightwalker-87/ct-bot-doku) 
+Derzeit befindet sich die gesamte Projektdokumentation in der Überarbeitung (siehe auch [Diskussion im Forum](https://www.ctbot.de/viewtopic.php?f=34&t=1219)). Im Zuge dieser sollen sowohl sämtliche Informationen des ehemaligen Trac-Wikis als auch des Community-Wikis in eine gemeinsame Projektdokumentation integriert werden. Sämtliche Dokumentation steht unter der [CC BY-SA Lizenz](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Der aktuelle Stand der Dokumentation ist im Git-Repository [**ct-Bot-doku**](https://github.com/Nightwalker-87/ct-bot-doku) auf GitHub zu finden. Die Inhalte es ehemaligen Trac-Wikis von Heise sind als Übergangslösung [hier](https://github.com/Nightwalker-87/ct-bot-doku/blob/master/_tmp_trac_wiki_export/readme.md) verfügbar
 
