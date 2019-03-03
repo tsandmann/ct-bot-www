@@ -9,7 +9,7 @@ Inzwischen lebt das Projekt nach dem Erscheinen des letzten c't-Artikels 2011 in
 ### Chat/Instant Messenger
 - [Matrix](https://de.wikipedia.org/wiki/Matrix_%28Kommunikationsprotokoll%29) (bspw. mit dem Client [Riot.im](https://riot.im), frei, föderal). Ein Beitritt ist hier auch als Gast und ohne Registrierung möglich.
   - [Direktzugang zum **ct-Bot-Channel**](https://riot.im/app/#/room/#ctbot:matrix.org) über die Web-App von Riot.im.
-  - [Direktzugang zum **News-Channel**](https://riot.im/app/#/room/#ctbot-news:matrix.org) über die Web-App von Riot.im.
+  - [Direktzugang zum **News-Channel**](https://riot.im/app/#/room/#ct-Bot-news:matrix.org) über die Web-App von Riot.im.
 - [Slack](https://de.wikipedia.org/wiki/Slack_%28Software%29) (proprietär, zentralisiert, aber mehr Funktionen als Riot). Ein Beitritt ist hier nur mit Registrierung möglich.
   - [Registrierung zum ct-Bot-Workspace](https://ct-bot-slack.herokuapp.com).
 - Hinweise
