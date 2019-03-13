@@ -2,9 +2,18 @@
 
 <img src="images/ctbot.png" title="c’t-Bot ohne Kabel von Peter Recktenwald, CC BY-SA 3.0" style="float: right; margin-left:2em; height: 200px;" />
 
-c't-Bot und c't-Sim gehören zusammen und sind ein Roboterprojekt, das von der Zeitschrift c't Anfang des Jahres 2006 gestartet  und in einer Reihe von 16 Artikeln beschrieben wurde. Das Ziel des c't-Bots war und ist dabei, möglichst Vielen den Zugang zu dem spannenden Thema der Robotik zu eröffnen. Das Projekt besteht aus zwei Teilen: Dem eigentlichen Roboter c't-Bot und dem passenden Simulator c't-Sim.
+c't-Bot und c't-Sim gehören zusammen und sind ein Roboterprojekt, das von der Zeitschrift c't Anfang des Jahres 2006 gestartet und in einer Reihe von 16 Artikeln beschrieben wurde.
+Das Ziel des c't-Bots war und ist dabei, möglichst Vielen den Zugang zu dem spannenden Thema der Robotik zu eröffnen.
+Das Projekt besteht aus zwei Teilen: Dem eigentlichen Roboter c't-Bot und dem dazu passenden Simulator c't-Sim.
 
-Inzwischen lebt das Projekt nach dem Erscheinen des letzten c't-Artikels 2011 in der entstandenen Community weiter. Derzeit befindet sich das Projekt in einer Phase der Neuorganisation durch die Community: insbesondere die gesamte Dokumentation wird derzeit neu aufbereit und Pläne für eine aktualisierte Version der Bot-Hardware bestehen auch schon.
+Über viele Jahre hinweg ist um das Projekt herum eine Community entstanden, welche das Projekt auch nach dem Erscheinen des letzten c't-Artikels 2011 weiter pflegt.
+
+Derzeit bemüht sich ein Kreis aus Projektbegeisterten um eine Neuorganisation des Projekts.
+
+So ist es 2018 gelungen den Source-Code und die gesamte Dokumentation auf die GitHub-Plattform zu portieren, mit dem Ziel den Projektumfang und das entstandene Wissen zu erhalten und vor allem frei zugänglich zu machen.
+In Absprache mit dem Heise Verlag, als ursprünglicher Initiator des Projekts, wurde die Projektdokumentation inzwischen unter eine CC-BY-SA Lizenz gestellt.
+
+Die zusammengetragenen Inhalte werden derzeit neu aufbereitet und aktualisiert. Darüber hinaus gibt es Pläne und erste Ansätze für eine aktualisierte Version der Bot-Hardware auf der Basis eines zeitgemäßen Elektronik-Designs.
 
 ## Community und Support
 
@@ -21,26 +30,34 @@ Inzwischen lebt das Projekt nach dem Erscheinen des letzten c't-Artikels 2011 in
 
 ### Forum
 
-Unter [www.ctbot.de](https://www.ctbot.de) ist das Community-Forum zum c't-Bot und verwandten Themen zu finden. Es besteht bereits seit der Anfangszeit des Projekts und enthält somit nicht nur Support zum Bot sowie aktuelle Diskussionen zur Zukunft des Projekts, sondern auch die spannende Historie des Projekts.
+Unter [www.ctbot.de](https://www.ctbot.de) ist das Community-Forum zum c't-Bot und zu verwandten Themen zu finden.
+Es besteht bereits seit der Anfangszeit des Projekts und enthält somit nicht nur Support zum Bot sowie aktuelle Diskussionen zur Zukunft des Projekts, sondern auch die spannende Historie des Projekts.
 
 ## Dokumentation
 
 ### Zukünftige [Projektdokumentation](https://github.com/Nightwalker-87/ct-bot-doku)
 
-Derzeit befindet sich die gesamte Projektdokumentation in der Überarbeitung (siehe auch [Diskussion im Forum](https://www.ctbot.de/viewtopic.php?f=34&t=1219)). Im Zuge dieser sollen sowohl sämtliche Informationen des ehemaligen Trac-Wikis als auch des Community-Wikis in eine gemeinsame Projektdokumentation integriert werden. Sämtliche Dokumentation steht unter der [CC BY-SA Lizenz](https://creativecommons.org/licenses/by-sa/4.0/).
+Derzeit befindet sich die gesamte Projektdokumentation in der Überarbeitung (siehe auch [Diskussion im Forum](https://www.ctbot.de/viewtopic.php?f=34&t=1219)).
+Im Zuge dieser sollen sowohl sämtliche Informationen des ehemaligen Trac-Wikis als auch des Community-Wikis in eine gemeinsame Projektdokumentation integriert werden.
+Sämtliche Dokumentation steht unter der [CC BY-SA Lizenz](https://creativecommons.org/licenses/by-sa/4.0/).
 
-Der aktuelle Stand der Dokumentation ist im Git-Repository [**ct-Bot-doku**](https://github.com/Nightwalker-87/ct-bot-doku) auf GitHub zu finden. Die Inhalte des ehemaligen Trac-Wikis von Heise sind als Übergangslösung [hier](https://github.com/Nightwalker-87/ct-bot-doku/blob/master/_tmp_trac_wiki_export/readme.md) verfügbar
+Der aktuelle Stand der Dokumentation ist im Git-Repository [**ct-Bot-doku**](https://github.com/Nightwalker-87/ct-bot-doku) auf GitHub zu finden.
+Die Inhalte des ehemaligen Trac-Wikis von Heise sind als Übergangslösung [hier](https://github.com/Nightwalker-87/ct-bot-doku/blob/master/_tmp_trac_wiki_export/readme.md) verfügbar
 
-### Bisherige Projektdokumentation
+### Bisherige Projektdokumentation (veraltet)
 
-- Die [ehemalige, offizielle Projektseite](https://www.heise.de/ct/artikel/c-t-Bot-und-c-t-Sim-284119.html) von der c't bei Heise wird nicht mehr gepflegt und enthält somit zum Teil auch stark veraltete Inhalte.
-- Zusammen mit dem Community-Forum ist auch ein Wiki enstanden, das unter [wiki.ctbot.de](https://wiki.ctbot.de) zu finden ist. Dort finden sich vielen Infos und Dokumentationen zum Projekt, die im Zuge der derzeitigen Neustrukturierung des Projekts jedoch nicht mehr aktiv gepflegt werden.
-- Die Liste an [FAQs](https://www.heise.de/ct/artikel/FAQ-fuer-c-t-Bot-und-c-t-SIM-291940.html) wird nicht mehr gepflegt und enthält somit zum Teil auch veraltete Inhalte.
+- Die [ehemalige, offizielle Projektseite](https://www.heise.de/ct/artikel/c-t-Bot-und-c-t-Sim-284119.html) des c't-Magazins von Heise wird nicht mehr gepflegt und enthält somit zum Teil auch stark veraltete Inhalte.
+- Zusammen mit dem Community-Forum ist auch ein Wiki enstanden, das unter [wiki.ctbot.de](https://wiki.ctbot.de) zu finden ist.
+Dort finden sich vielen Infos und Dokumentationen zum Projekt, die im Zuge der derzeitigen Neustrukturierung des Projekts jedoch nicht mehr aktiv gepflegt werden.
+- Die Liste an [FAQs für c't-Bot & c't-Sim](https://www.heise.de/ct/artikel/FAQ-fuer-c-t-Bot-und-c-t-SIM-291940.html) wird nicht mehr gepflegt und enthält somit zum Teil auch veraltete Inhalte.
 - Das [Archiv der ehemaligen Mailingliste](https://www.heise.de/ct/newsletter/archiv/ct-bot-entwickler/) enthält noch den ein oder anderen Schatz an Informationen, die allerdings auch nicht mehr aktuell sein müssen.
 
 ## Source Code
 
-Der Quellcode des Projekts ist unter GPL lizensiert und in Git-Repositories auf GitHub verfügbar. Für den c't-Bot ist er in C geschrieben - egal ob für den realen Bot oder den Simulator. So lassen sich komplexe Verhaltensmuster für den Bot zunächst am PC testen. Der in Java geschriebene Simulator c't-Sim kommuniziert mit mehreren virtuellen Robotern, gaukelt ihnen eine Umgebung vor und liefert Sensorwerte zurück.
+Der Quellcode des Projekts ist unter GPL lizensiert und in Git-Repositories auf GitHub verfügbar.
+Für den c't-Bot ist er in C geschrieben - egal ob für den hardwarebasierten realen Bot oder den virtuellen Bot im Simulator.
+So lassen sich komplexe Verhaltensmuster für den Bot zunächst am PC testen.
+Der in Java geschriebene Simulator c't-Sim kommuniziert mit mehreren virtuellen Robotern, gaukelt ihnen eine Umgebung vor und liefert Sensorwerte zurück.
 
 Das Software-Framework des c’t-Bot erfüllt sehr unterschiedliche Anforderungen:
 
@@ -57,11 +74,10 @@ Das Software-Framework des c’t-Bot erfüllt sehr unterschiedliche Anforderunge
 ### Weitere Repositories
 
 - [ct-bot-hw](https://github.com/tsandmann/ct-bot-hw) ist das Repository für das c't-Bot Hardware-Design.
-  - Im Ordner [v1](https://github.com/tsandmann/ct-bot-hw/tree/master/v1) finden sich  die Design-Dateien des originalen ct-Bots und die gehörigen Datenblätter.
-  - Unter [v2](https://github.com/tsandmann/ct-bot-hw/tree/master/v2) ist die Entwicklung einer neuen Hardware-Revision des ct-Bots zu finden, die derzeit in Planung ist.
-- [ct-bot-sw](https://github.com/Nightwalker-87/ct-bot-sw) ist ein Fork des ct-Bot Codes. Nähere Informationen sind in der [Readme](https://github.com/Nightwalker-87/ct-bot-sw/blob/master/README.md) zu finden.
-- [ctbot-atmega](https://github.com/tsandmann/ctbot-atmega) enthält eine vollständige Neuentwicklung in C++ einer reduzierten Basis-Firmware für die Grundfunktionalität eines realen ct-Bots. Nähere Informationen sind in der [Readme](https://github.com/tsandmann/ctbot-atmega/blob/master/README.md) zu finden.
-- [ctbot-teensy](https://github.com/tsandmann/ctbot-teensy) enthält eine vollständige Neuentwicklung des Frameworks in C++ für einen realen Bot, der mit einem Teensy 35 oder Teensy 36 Mikrocontroller ausgestattet ist. Nähere Informationen sind in der [Readme](https://github.com/tsandmann/ctbot-teensy/blob/master/README.md) zu finden.
+    - Im Ordner [v1](https://github.com/tsandmann/ct-bot-hw/tree/master/v1) finden sich  die Design-Dateien des originalen ct-Bots und die gehörigen Datenblätter.
+    - Im Ordner [v2](https://github.com/tsandmann/ct-bot-hw/tree/master/v2) ist die Entwicklung einer neuen Hardware-Revision des ct-Bots zu finden, die derzeit in Planung ist.
+- [ctbot-atmega](https://github.com/tsandmann/ctbot-atmega) enthält eine vollständige Neuentwicklung in C++ einer reduzierten Basis-Firmware für die Grundfunktionalität eines realen ct-Bots. Nähere Informationen finden sich [hier](https://github.com/tsandmann/ctbot-atmega/blob/master/README.md).
+- [ctbot-teensy](https://github.com/tsandmann/ctbot-teensy) enthält eine vollständige Neuentwicklung des Frameworks in C++ für einen realen Bot, der mit einem Teensy 35 oder Teensy 36 Mikrocontroller ausgestattet ist. Nähere Informationen finden sich [hier](https://github.com/tsandmann/ctbot-teensy/blob/master/README.md).
 
 [![License: CC BY-SA 4.0](license.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
