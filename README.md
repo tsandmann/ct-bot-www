@@ -74,8 +74,8 @@ Das Software-Framework des c’t-Bot erfüllt sehr unterschiedliche Anforderunge
 ### Weitere Repositories
 
 - [ct-bot-hw](https://github.com/tsandmann/ct-bot-hw) ist das Repository für das c't-Bot Hardware-Design.
-    - Im Ordner [v1](https://github.com/tsandmann/ct-bot-hw/tree/master/v1) finden sich  die Design-Dateien des originalen ct-Bots und die gehörigen Datenblätter.
-    - Im Ordner [v2](https://github.com/tsandmann/ct-bot-hw/tree/master/v2) ist die Entwicklung einer neuen Hardware-Revision des ct-Bots zu finden, die derzeit in Planung ist.
+  - Im Ordner [v1](https://github.com/tsandmann/ct-bot-hw/tree/master/v1) finden sich  die Design-Dateien des originalen ct-Bots und die gehörigen Datenblätter.
+  - Im Ordner [v2](https://github.com/tsandmann/ct-bot-hw/tree/master/v2) ist die Entwicklung einer neuen Hardware-Revision des ct-Bots zu finden, die derzeit in Planung ist.
 - [ctbot-atmega](https://github.com/tsandmann/ctbot-atmega) enthält eine vollständige Neuentwicklung in C++ einer reduzierten Basis-Firmware für die Grundfunktionalität eines realen ct-Bots. Nähere Informationen finden sich [hier](https://github.com/tsandmann/ctbot-atmega/blob/master/README.md).
 - [ctbot-teensy](https://github.com/tsandmann/ctbot-teensy) enthält eine vollständige Neuentwicklung des Frameworks in C++ für einen realen Bot, der mit einem Teensy 35 oder Teensy 36 Mikrocontroller ausgestattet ist. Nähere Informationen finden sich [hier](https://github.com/tsandmann/ctbot-teensy/blob/master/README.md).
 
