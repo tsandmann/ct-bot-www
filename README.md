@@ -17,10 +17,10 @@ Die zusammengetragenen Inhalte werden derzeit neu aufbereitet und aktualisiert. 
 
 ### Chat/Instant Messenger
 
-- [Matrix](https://de.wikipedia.org/wiki/Matrix_%28Kommunikationsprotokoll%29) (bspw. mit dem Client [Riot.im](https://riot.im), frei, föderal). Ein Beitritt ist hier auch als Gast und ohne Registrierung möglich.
+- [Matrix](https://de.wikipedia.org/wiki/Matrix_%28Kommunikationsprotokoll%29) (bspw. mit dem Client [Riot.im](https://riot.im), frei, föderal).
   - [Direktzugang zum **ct-Bot-Channel**](https://riot.im/app/#/room/#ctbot:matrix.org) über die Web-App von Riot.im.
   - [Direktzugang zum **News-Channel**](https://riot.im/app/#/room/#ct-Bot-news:matrix.org) über die Web-App von Riot.im.
-- [Slack](https://de.wikipedia.org/wiki/Slack_%28Software%29) (proprietär, zentralisiert, aber mehr Funktionen als Riot). Ein Beitritt ist hier nur mit Registrierung möglich.
+- [Slack](https://de.wikipedia.org/wiki/Slack_%28Software%29) (proprietär, zentralisiert, aber mehr Funktionen als Riot).
   - [Registrierung zum ct-Bot-Workspace](https://ct-bot-slack.herokuapp.com).
 - Hinweise
   - Matrix und Slack sind synchronisiert und zeigen so dieselben Inhalte. Sie können daher nach persönlicher Präferenz gewählt werden.
