@@ -77,6 +77,6 @@ Das Software-Framework des c’t-Bot erfüllt sehr unterschiedliche Anforderunge
 - [ctbot-atmega](https://github.com/tsandmann/ctbot-atmega) enthält eine vollständige Neuentwicklung in C++ einer reduzierten Basis-Firmware für die Grundfunktionalität eines realen ct-Bots. Nähere Informationen finden sich in der [Readme-Datei](https://github.com/tsandmann/ctbot-atmega/blob/master/README.md).
 - [ctbot-teensy](https://github.com/tsandmann/ctbot-teensy) enthält eine vollständige Neuentwicklung des Frameworks in C++ für einen realen Bot, der mit einem Teensy 35 oder Teensy 36 Mikrocontroller ausgestattet ist. Nähere Informationen finden sich in der [Readme-Datei](https://github.com/tsandmann/ctbot-teensy/blob/master/README.md).
 
-[![License: CC BY-SA 4.0](LICENSE.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License: CC BY-SA 4.0](images/license.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Bildquelle & -Lizenz: *c’t-Bot ohne Kabel* von Peter Recktenwald, CC BY-SA 3.0
