@@ -33,20 +33,24 @@ Es besteht bereits seit der Anfangszeit des Projekts und enthält somit nicht nu
 
 ## Dokumentation
 
-### Zukünftige [Projektdokumentation](https://github.com/Nightwalker-87/ct-bot-doku)
+### Projektdokumentation
 
-Derzeit befindet sich die gesamte Projektdokumentation in der Überarbeitung (siehe auch [Diskussion im Forum](https://www.ctbot.de/viewtopic.php?f=34&t=1219)).
-Im Zuge dieser sollen sowohl sämtliche Informationen des ehemaligen Trac-Wikis als auch des Community-Wikis in eine gemeinsame Projektdokumentation integriert werden.
-Die Dokumentation steht unter der [CC BY-SA Lizenz](https://creativecommons.org/licenses/by-sa/4.0/). Ausgenommen hiervon sind lediglich die beiden Artikel *c’t-Bot: Programmieren leicht gemacht* und *c’t-Bot: Roboter selbst bauen* aus *c't Hacks / Make, Ausgabe 01/2012*, die unter der [CC BY-NC-SA Lizenz](https://creativecommons.org/licenses/by-nc-sa/4.0/) stehen.
+Die Artikelseiten der Dokumentation stehen unter der Lizenz [![License: CC BY-SA 4.0](images/LICENSE_CC-BY-SA.svg)](https://creativecommons.org/licenses/by-sa/4.0/).
 
-Der aktuelle Stand der Dokumentation ist im Git-Repository [**ct-Bot-doku**](https://github.com/Nightwalker-87/ct-bot-doku) auf GitHub zu finden.
-Die Inhalte des ehemaligen Trac-Wikis von Heise sind dort als [Übergangslösung](https://github.com/Nightwalker-87/ct-bot-doku/blob/master/_tmp_trac_wiki_export/readme.md) verfügbar.
+Die beiden folgenden Artikel aus *c't Hacks / Make, Ausgabe 01/2012* stehen unter der Lizenz [![License: CC BY-NC-SA 4.0](images/LICENSE_CC-BY-NC-SA.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/):
+- *c’t-Bot: Programmieren leicht gemacht* und
+- *c’t-Bot: Roboter selbst bauen*
 
-### Bisherige Projektdokumentation
+[Offizielle Projektdokumentation](https://github.com/Nightwalker-87/ct-bot-doku) (NEU)
+
+Derzeit befindet sich die Projektdokumentation in Überarbeitung (siehe auch [Diskussion im Forum](https://www.ctbot.de/viewtopic.php?f=34&t=1219)).
+Im Zuge dieser werden sowohl sämtliche Informationen des ehemaligen Trac-Wikis als auch des Community-Wikis in eine gemeinsame Projektdokumentation portiert.
+Währenddessen sind die Inhalte des ehemaligen Trac-Wikis von Heise als [Übergangslösung](https://github.com/Nightwalker-87/ct-bot-doku/blob/master/_tmp_wikis_export/readme.md) verfügbar.
+Daneben existiert noch ein (inzwischen archiviertes) Community-Wiki, dessen noch nicht portierte Inhalte unter [wiki.ctbot.de](https://wiki.ctbot.de) verfügbar bleiben.
+
+### Alte Projektdokumentation
 
 - Die [ehemalige, offizielle Projektseite](https://www.heise.de/ct/artikel/c-t-Bot-und-c-t-Sim-284119.html) des c't-Magazins von Heise wird nicht mehr gepflegt und enthält somit zum Teil auch stark veraltete Inhalte.
-- Zusammen mit dem Community-Forum ist auch ein Wiki enstanden, das unter [wiki.ctbot.de](https://wiki.ctbot.de) zu finden ist.
-Dort finden sich vielen Infos und Dokumentationen zum Projekt, die im Zuge der derzeitigen Neustrukturierung des Projekts jedoch nicht mehr aktiv gepflegt werden.
 - Die Liste an [FAQs für c't-Bot & c't-Sim](https://www.heise.de/ct/artikel/FAQ-fuer-c-t-Bot-und-c-t-SIM-291940.html) wird nicht mehr gepflegt und enthält somit zum Teil auch veraltete Inhalte.
 - Das [Archiv der ehemaligen Mailingliste](https://www.heise.de/ct/newsletter/archiv/ct-bot-entwickler/) enthält noch den ein oder anderen Schatz an Informationen, die allerdings auch nicht mehr aktuell sein müssen.
 
@@ -77,6 +81,6 @@ Das Software-Framework des c’t-Bot erfüllt sehr unterschiedliche Anforderunge
 - [ctbot-atmega](https://github.com/tsandmann/ctbot-atmega) enthält eine vollständige Neuentwicklung in C++ einer reduzierten Basis-Firmware für die Grundfunktionalität eines realen ct-Bots. Nähere Informationen finden sich in der [Readme-Datei](https://github.com/tsandmann/ctbot-atmega/blob/master/README.md).
 - [ctbot-teensy](https://github.com/tsandmann/ctbot-teensy) enthält eine vollständige Neuentwicklung des Frameworks in C++ für einen realen Bot, der mit einem Teensy 35 oder Teensy 36 Mikrocontroller ausgestattet ist. Nähere Informationen finden sich in der [Readme-Datei](https://github.com/tsandmann/ctbot-teensy/blob/master/README.md).
 
-[![License: CC BY-SA 4.0](images/license.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License: CC BY-SA 4.0](images/LICENSE_CC-BY-SA.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Bildquelle & -Lizenz: *c’t-Bot ohne Kabel* von Peter Recktenwald, CC BY-SA 3.0
