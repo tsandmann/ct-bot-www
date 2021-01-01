@@ -1,3 +1,8 @@
-theme: jekyll-theme-slate
-title: c't-Bot und c't-Sim
+remote_theme: rundocs/jekyll-rtd-theme
+title: ct-Bot und ct-Sim
 description: The free and open source robotic project
+url: 'https://www.ct-bot.de'
+baseurl: ""
+repository: tsandmann/ct-bot-www
+plugins:
+  - jekyll-mentions
