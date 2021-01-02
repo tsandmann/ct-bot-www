@@ -1,7 +1,7 @@
 # Erste Schritte
 
 ```tip
-Vorne weg ein paar [heitere Worte](https://www.heise.de/ct/artikel/Hallo-mein-Name-ist-Benjamin-Ich-bin-suechtig-290260.html) zur Motivation und eine [Einführung](https://www.heise.de/ct/artikel/Spielgefaehrten-290274.html) in das Projekt.
+Vorne weg ein paar [heitere Worte](../articles/ct.2006-02.003_editorial_cc-by-sa.pdf) zur Motivation und eine [Einführung](../articles/ct.2006-02.130-135_spielgefaehrten_cc-by-sa.pdf) in das Projekt.
 ```
 
 Das ct-Bot- und ct-Sim-Projekt läuft schon eine ganze Weile und folglich gibt es auch eine ganze Menge an Dokumentation, Artikeln, FAQs und so weiter. Damit der Einstieg etwas leichter wird, haben wir hier ein paar nützliche Tipps und Literaturhinweise gesammelt.
@@ -32,14 +32,15 @@ Wer (noch) keinen realen Bot besitzt und erstmal in das Projekt reinschauen will
 1. ct-Bot compilieren [Bot compilieren, Simulator starten und ct-Bot starten](../installation/1_installation-allgemein.md#ct-sim-und-virtuelle-bots-aus-eclipse-starten)
 1. Fernbedienung öffnen und Wandfolger (Taste 5) starten
 
-Nun hat man einen virtuellen Bot im Simulator. Möchte man dem Bot eigene Kunststückchen beibringen, kommt man um die Installation der Toolchain nicht herum. Wie man den Bot programmiert ist in den folgenden Artikeln ausführlich beschrieben:
+Nun hat man einen virtuellen Bot im Simulator. Möchte man dem Bot eigene Kunststückchen beibringen, kommt man um die [Installation der Toolchain](../installation/1_installation-allgemein.md) nicht herum. Wie man den Bot verwendet und programmiert ist in den folgenden [Artikeln](2_ct-articles.md) ausführlich beschrieben:
 
-1. <a href="https://heise.de/-290274" target="_blank">Idee des ct-Sim</a> -- Roboter für Löter, Simulator für Soft-Werker. c't 2, 2006.
-1. <a href="https://heise.de/-290334" target="_blank">Interna des ct-Sim</a> -- Kollisionen und Sensoren für den c't-Sim, neues Verhalten für den c't-Bot. c't 5, 2006.
-1. <a href="https://heise.de/-290392" target="_blank">Programmierung des (virtuellen) ct-Bot</a> -- c't-Bots bewältigen komplexe Aufgaben. c't 7, 2006.
-1. <a href="https://heise.de/-290460" target="_blank">Tutorial für die Programmierung des ct-Bot</a> -- Komplexe Verhalten für den c't-Bot selbst entwickelt. c't 10, 2006.
-1. <a href="https://heise.de/-290480" target="_blank">Eigene Welten für den ct-Sim</a> -- c't-Sim: Weltenbau und Netzwerkzuschauer. c't 11, 2006.
-1. <a href="https://heise.de/-290662" target="_blank">Kartographie für den ct-Bot</a> -- Karten bauen (nicht nur) mit dem c't-Bot. c't 19, 2006.
+1. **Einsteiger-Tutorial zu ct-Bot und ct-Sim: <a href="../articles/make.2012-01.100_ct-bot-programmieren-leicht-gemacht_cc-by-nc-sa.pdf" target="_blank">c’t-Bot: Programmieren leicht gemacht</a>**. *Benjamin Benz*. c’t Hardware Hacks 1, 2012. CC BY-NC-SA 4.0.
+1. **Idee des ct-Sim: <a href="../articles/ct.2006-02.130-135_spielgefaehrten_cc-by-sa.pdf" target="_blank">Spielgefährten</a>** -- Roboter für Löter, Simulator für Soft-Werker. *Thorsten Thiele, Benjamin Benz, Carl Thiede*. c't 2, 2006. CC BY-SA 4.0. <a href="https://heise.de/-290274" target="_blank">html-Version</a>.
+1. **Interna des ct-Sim: <a href="../articles/ct.2006-05.224-230_draengelnde-spielgefaehrten_cc-by-sa.pdf" target="_blank">Drängelnde Spielgefährten</a>** -- Kollisionen und Sensoren für den c't-Sim, neues Verhalten für den c't-Bot. *Peter König, Lasse Schwarten, Benjamin Benz*. c't 5, 2006. CC BY-SA 4.0. <a href="https://heise.de/-290334" target="_blank">html-Version</a>.
+1. **Programmierung des (virtuellen) ct-Bot: <a href="../articles/ct.2006-07.218-222_hohe-schule_cc-by-sa.pdf" target="_blank">Hohe Schule</a>** -- c't-Bots bewältigen komplexe Aufgaben. *Christoph Grimmer*. c't 7, 2006. CC BY-SA 4.0. <a href="https://heise.de/-290392" target="_blank">html-Version</a>.
+1. **Tutorial für die Programmierung von Verhalten: <a href="../articles/ct.2006-10.236-239_ausgang-gesucht_cc-by-sa.pdf" target="_blank">Ausgang gesucht!</a>** -- Komplexe Verhalten für den c't-Bot selbst entwickelt. *Torsten Evers*. c't 10, 2006. CC BY-SA 4.0. <a href="https://heise.de/-290460" target="_blank">html-Version</a>.
+1. **Eigene Welten für den ct-Sim: <a href="../articles/ct.2006-11.214-217_genesis_cc-by-sa.pdf" target="_blank">Genesis</a>** -- c't-Sim: Weltenbau und Netzwerkzuschauer. *Benjamin Benz*. c't 11, 2006. CC BY-SA 4.0. <a href="https://heise.de/-290480" target="_blank">html-Version</a>.
+1. **Kartographie für den ct-Bot: <a href="../articles/ct.2006-19.198-205_an-der-naechsten-ecke-links_cc-by-sa.pdf" target="_blank">An der nächsten Ecke links...</a>** -- Karten bauen (nicht nur) mit dem c't-Bot. *Andreas Birk*. c't 19, 2006. CC BY-SA 4.0. <a href="https://heise.de/-290662" target="_blank">html-Version</a>.
 
 ## Weitere externe Dokumentation
 
@@ -48,9 +49,9 @@ Nun hat man einen virtuellen Bot im Simulator. Möchte man dem Bot eigene Kunsts
 
 ## Ausblick
 
-Für alle, die einen ct-Bot besitzen, geht es nun mit der <a href="https://github.com/Nightwalker-87/ct-bot-doku/blob/master/doc/wiki_main.md#ct-bot" target="_blank">Hardware-Dokumentation</a> weiter.
+Für alle, die einen ct-Bot besitzen, geht es nun mit der <a href="https://github.com/Nightwalker-87/ct-bot-doku/blob/master/doc/wiki_main.md#ct-bot" target="_blank">Hardware-Dokumentation</a> weiter, insbesondere mit der <a href="https://github.com/Nightwalker-87/ct-bot-doku/blob/master/doc/wiki_pages_deprecated/ct-bot_assembly.md#aufbauanleitung-für-den-ct-bot" target="_blank">Aufbauanleitung</a>.
 
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 26.12.2020
+Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 02.01.2021
