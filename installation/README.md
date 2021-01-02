@@ -1,10 +1,8 @@
 # Installationsanleitungen
 
-### [Allgemeine Installationsanleitung für ct-Bot und ct-Sim](1_installation-allgemein.md)
-
-### [Installation von Eclipse](2_installation-eclipse.md)
-
-### [Verwendung fertiger Container-Images zur Entwicklung](3_installation_container.md)
+* [Allgemeine Installationsanleitung für ct-Bot und ct-Sim](1_installation-allgemein.md)
+* [Installation von Eclipse](2_installation-eclipse.md)
+* [Verwendung fertiger Container-Images zur Entwicklung](3_installation_container.md)
 
 ---
 

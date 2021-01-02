@@ -1,10 +1,8 @@
 # Einstieg
 
-### [Erste Schritte mit ct-Bot und ct-Sim](1_first-steps.md)
-
-### [Community und Support](../README.md#community-und-support)
-
-### [c't-Artikel zu ct-Bot und ct-Sim](2_ct-articles.md)
+* [Erste Schritte mit ct-Bot und ct-Sim](1_first-steps.md)
+* [Community und Support](../README.md#community-und-support)
+* [c't-Artikel zu ct-Bot und ct-Sim](2_ct-articles.md)
 
 ---
 

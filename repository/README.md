@@ -1,8 +1,7 @@
 # Repository-Zugriff
 
-### [Repository-Zugriff mit Eclipse](1_git-eclipse.md)
-
-### [Repository-Zugriff mit VSCode](2_git-vsc.md)
+* [Repository-Zugriff mit Eclipse](1_git-eclipse.md)
+* [Repository-Zugriff mit VSCode](2_git-vsc.md)
 
 ---
 

@@ -1,10 +1,8 @@
 # Tutorials
 
-### [Verwendung von Eclipse](1_usage-eclipse.md)
-
-### [Verwendung von Visual Studio Code](2_usage-vsc.md)
-
-### [Übertragen der Firmware auf den ct-Bot](3_usage-avrdude.md)
+* [Verwendung von Eclipse](1_usage-eclipse.md)
+* [Verwendung von Visual Studio Code](2_usage-vsc.md)
+* [Übertragen der Firmware auf den ct-Bot](3_usage-avrdude.md)
 
 ---
 
