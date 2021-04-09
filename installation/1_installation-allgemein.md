@@ -63,10 +63,13 @@ Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_S
      1. *MinGW-w64 Win64 Shell* starten.
      1. `pacman -Suy` ausführen, um msys2 zu aktualisieren.
      1. `pacman -S mingw-w64-x86_64-gcc make` ausführen, um gcc Toolchain zu installieren.
-  1. PATH-Einträge in Eclipse ergänzen:
+  1. Path-Einträge in Eclipse ergänzen:
      1. In Eclipse `Window` -> `Preferences` -> `C/C++` -> `Build` -> `Environment` öffnen.
      1. Dann `Select...` -> `Path` -> `Edit...` auswählen.
      1. Am **Anfang** `C:\msys64\usr\bin;C:\msys64\mingw64\bin;` hinzufügen.
+  1. Für VSCode oder Commanline-Builds die systemweiten Path-Einträge ergänzen:
+     1. Siehe [Umgebungsvariablen in Windows 10 bearbeiten](https://bodo-schoenfeld.de/umgebungsvariablen-in-windows-10-bearbeiten/) zum Bearbeiten
+     1. Für die Variable `Path` die folgenden Einträge hinzufügen: `C:\msys64\usr\bin` und `C:\msys64\mingw64\bin`
 
 ## III. Compiler und Tools für reale Bots (ATmega)
 
@@ -172,4 +175,4 @@ Die Datei `ct-Bot.exe` bzw. `ct-Bot` beendet sich zügig wieder, wenn sie keinen
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 20.12.2020
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 10.04.2021
