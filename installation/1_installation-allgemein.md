@@ -68,7 +68,7 @@ Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_S
      1. Dann `Select...` -> `Path` -> `Edit...` auswählen.
      1. Am **Anfang** `C:\msys64\usr\bin;C:\msys64\mingw64\bin;` hinzufügen.
   1. Für VSCode oder Commanline-Builds die systemweiten Path-Einträge ergänzen:
-     1. Siehe [Umgebungsvariablen in Windows 10 bearbeiten](https://bodo-schoenfeld.de/umgebungsvariablen-in-windows-10-bearbeiten/) zum Bearbeiten
+     1. Siehe <a href="https://bodo-schoenfeld.de/umgebungsvariablen-in-windows-10-bearbeiten/" target="_blank">Umgebungsvariablen in Windows 10 bearbeiten</a> zum Bearbeiten
      1. Für die Variable `Path` die folgenden Einträge hinzufügen: `C:\msys64\usr\bin` und `C:\msys64\mingw64\bin`
 
 ## III. Compiler und Tools für reale Bots (ATmega)
