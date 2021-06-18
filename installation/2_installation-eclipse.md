@@ -1,6 +1,6 @@
 # Installationsanleitung für Eclipse
 
-Die folgende Anleitung beschreibt die Installation von **Eclipse 2020‑12** inkl. der erforderlichen **Plugins**.
+Die folgende Anleitung beschreibt die Installation von **Eclipse 2021‑06** inkl. der erforderlichen **Plugins**.
 
 ```warning
 Eclipse 2021‑06 ist die aktuell empfohlene Version, einige ältere Versionen (4.x zurück bis Luna 4.4, 3.x bis Galileo 3.5) funktionieren grunsätzlich auch, noch Ältere hingegen nicht einwandfrei. Insbesondere zum Entwickeln des Bot-Steuercodes in C sollte man die neueste Eclipse Version verwenden, weil gerade das CDT Plugin erhebliche Verbesserungen erfahren hat.
