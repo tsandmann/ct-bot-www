@@ -3,7 +3,7 @@
 Die folgende Anleitung beschreibt die Installation von **Eclipse 2020‑12** inkl. der erforderlichen **Plugins**.
 
 ```warning
-Eclipse 2020‑12 ist die aktuell empfohlene Version, einige ältere Versionen (4.x zurück bis Luna 4.4, 3.x bis Galileo 3.5) funktionieren grunsätzlich auch, noch Ältere hingegen nicht einwandfrei. Insbesondere zum Entwickeln des Bot-Steuercodes in C sollte man die neueste Eclipse Version verwenden, weil gerade das CDT Plugin erhebliche Verbesserungen erfahren hat.
+Eclipse 2021‑06 ist die aktuell empfohlene Version, einige ältere Versionen (4.x zurück bis Luna 4.4, 3.x bis Galileo 3.5) funktionieren grunsätzlich auch, noch Ältere hingegen nicht einwandfrei. Insbesondere zum Entwickeln des Bot-Steuercodes in C sollte man die neueste Eclipse Version verwenden, weil gerade das CDT Plugin erhebliche Verbesserungen erfahren hat.
 ```
 
 ## Eclipse Basisinstallation
@@ -49,7 +49,7 @@ Das Plugin CDT (C/C++ Development Toolkit) rüstet in Eclipse die Unterstützung
 
        <img src="images/eclipse-05.png" width="630" style="display:block;margin-left:0;margin-right:auto;">
 
-    1. Dann `java-1.8.0-openjdk` oder `adoptopenjdk-8-hotspot-amd64` oder `jdk-8.0.275.1-hotspot` markieren und mit `Apply` speichern:
+    1. Dann `java-1.8.0-openjdk` oder `adoptopenjdk-8-hotspot-amd64` oder `jdk-8.0.X.Y-hotspot` markieren und mit `Apply` speichern:
 
        <img src="images/eclipse-06.png" width="800" style="display:block;margin-left:0;margin-right:auto;">
 
@@ -77,4 +77,4 @@ Zum Import des Codes aus dem [Git-Repository](https://github.com/tsandmann/ct-bo
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 20.12.2020
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 18.06.2021

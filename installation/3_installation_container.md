@@ -24,7 +24,7 @@ Hat man eigenen Änderungen am Code vorgenommen, sollte man das Datenverzeichnis
 wget https://github.com/tsandmann/ctbot-container/raw/master/run_eclipse.sh
 chmod +x run_eclipse.sh
 ./run_eclipse.sh PATH_TO_DATADIR [VERSION]
-# ./run_eclipse.sh . 2021-03
+# ./run_eclipse.sh . 2021-06
 ```
 
 Als `VERSION` kann auch `latest` verwendet werden, um die aktuellste Version zu starten:
@@ -33,7 +33,7 @@ Als `VERSION` kann auch `latest` verwendet werden, um die aktuellste Version zu 
 ```
 
 ```note
-Die Größe dieses Images beträgt ca. 1,6 GB.
+Die Größe dieses Images beträgt ca. 1,4 GB.
 ```
 
 ```tip
@@ -50,7 +50,7 @@ chmod +x run_eclipse-rpi.sh
 ```
 
 ```note
-Diese Variante wird nur benötigt, wenn der ct-Bot eine Raspberry-Pi-Erweiterung hat. Durch die zusätzliche Toolchain für den Raspberry Pi ist das Image ca. 2,7 GB groß.
+Diese Variante wird nur benötigt, wenn der ct-Bot eine Raspberry-Pi-Erweiterung hat. Durch die zusätzliche Toolchain für den Raspberry Pi ist das Image ca. 2,5 GB groß.
 ```
 
 ### Standalone ct-Sim
@@ -94,14 +94,14 @@ cd ctbot-data
 
 ```shell
 ./run_eclipse.sh PATH_TO_DATADIR [VERSION]
-# ./run_eclipse.sh . 2021-03
+# ./run_eclipse.sh . 2021-06
 ```
 
 oder 
 
 ```shell
 ./run_eclipse-rpi.sh PATH_TO_DATADIR [VERSION]
-# ./run_eclipse-rpi.sh . 2021-03
+# ./run_eclipse-rpi.sh . 2021-06
 ```
 
 Als `VERSION` kann jeweils auch `latest` verwendet werden, um die aktuellste Version zu starten, also z.B.:
@@ -140,8 +140,8 @@ Als `VERSION` kann auch `latest` verwendet werden, um die aktuellste Version zu 
 Hängt man an das Start-Skript weitere Parameter an, werden diese direkt an den `run`-Aufruf des Containers weitergereicht. So lassen sich z.B. weitere Verzeichnisse in den Container mounten, Programmier- bzw. USB-2-Bot-Adapter im Container verfügbar machen oder Ports forwarden.
 
 Beispiele:
-* USB-2-Bot-Adapter verwenden: `./run_eclipse.sh . 2021-03 --device=/dev/ttyUSB0`
-* ct-Sim-Port forwarden: `./run_eclipse.sh . 2021-03 -p 10001:10001`
+* USB-2-Bot-Adapter verwenden: `./run_eclipse.sh . 2021-06 --device=/dev/ttyUSB0`
+* ct-Sim-Port forwarden: `./run_eclipse.sh . 2021-06 -p 10001:10001`
 
 #### Benutzer im Container
 
@@ -155,12 +155,12 @@ Die Start-Skripte starten die Container mit der Option `--rm`, so dass sie nach 
 
 ```shell
 podman pull IMAGE_REPO:VERSION
-# podman pull docker.io/tsandmann/ctbot-eclipse:2021-03
+# podman pull docker.io/tsandmann/ctbot-eclipse:2021-06
 ```
 oder
 ```shell
 docker pull IMAGE_REPO:VERSION
-# docker pull docker.io/tsandmann/ctbot-eclipse:2021-03
+# docker pull docker.io/tsandmann/ctbot-eclipse:2021-06
 ```
 
 Um die neueste verfügbare Version zu laden:
@@ -186,10 +186,10 @@ git clone https://github.com/tsandmann/ctbot-container.git
 cd ctbot-container
 
 ./build_eclipse.sh VERSION 
-# ./build_eclipse.sh 2021-03
+# ./build_eclipse.sh 2021-06
 
 ./build_eclipse-rpi.sh VERSION
-# ./build_eclipse-rpi.sh 2021-03
+# ./build_eclipse-rpi.sh 2021-06
 
 ./build_ctsim.sh VERSION
 # ./build_ctsim.sh 2.28
@@ -208,4 +208,4 @@ cd ctbot-container
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 30.05.2021
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 18.06.2021

@@ -22,7 +22,7 @@ Wer auf seinem (Linux-)System podman oder docker installiert hat, kann alternati
     sudo dnf install java-1.8.0-openjdk
     ```
 * **macOS**: 
-    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot) und installieren. *Getestete Version: 8.0.275*.
+    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot) und installieren. *Getestete Version: 8.0.292*.
     * Alternativ kann unter macOS auch der Paketmanager [Homebrew](https://brew.sh) verwendet werden:
     ```shell
     brew tap adoptopenjdk/openjdk
@@ -30,14 +30,14 @@ Wer auf seinem (Linux-)System podman oder docker installiert hat, kann alternati
     ```
 
 * **Windows 10**: 
-    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot) und installieren. *Getestete Version: 8.0.275*.
+    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot) und installieren. *Getestete Version: 8.0.292*.
 
 ```warning
 Teilweise funktionert auch ein (Open) JDK in Version 11, das beispielsweise bei Debian 10 in den offiziellen Paketquellen enthalten ist. Allerdings kann Java 11 zu [Problemen](https://bugs.launchpad.net/ubuntu/+source/openjdk-lts/+bug/1838740) mit Java3D führen, daher wird das ältere Java 8 (1.8) empfohlen und in dieser Anleitung verwendet.
 ```
 
 ### 2. Eclipse installieren
-[Eclipse](https://de.wikipedia.org/wiki/Eclipse_(IDE)) herunterladen und installieren, siehe [Anleitung zur Einrichtung von Eclipse](2_installation-eclipse.md). *Getestete Version: Eclipse 2020‑12*.
+[Eclipse](https://de.wikipedia.org/wiki/Eclipse_(IDE)) herunterladen und installieren, siehe [Anleitung zur Einrichtung von Eclipse](2_installation-eclipse.md). *Getestete Version: Eclipse 2021‑06*.
 
 ```note
 Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_Studio_Code) (VSCode) als IDE verwendet werden, zur Installation siehe [Anleitung zur Einrichtung von Visual Studio Code und PlatformIO](https://docs.platformio.org/en/latest/integration/ide/vscode.html#installation). Schritt III. entfällt dann ebenfalls, weil [PlatformIO](https://docs.platformio.org/en/latest/index.html) als Buildsystem verwendet wird.
@@ -50,7 +50,7 @@ Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_S
   ```shell
   sudo apt-get install build-essential manpages-dev git
   ```
-  * CentOS/RHEL 8, Fedora 33:
+  * CentOS/RHEL 8, Fedora 34:
   ```shell
   sudo dnf groupinstall "Development Tools"
   ```
@@ -82,7 +82,7 @@ Dieser Schritt ist nicht erforderlich, wenn Visual Studio Code als IDE mit Platf
     ```shell
     sudo apt-get install gcc-avr avr-libc avrdude
     ```
-  * Fedora 33:
+  * Fedora 34:
     ```shell
     sudo dnf install avr-gcc-c++ avr-libc avr-libc-doc avrdude avrdude-doc
     ```
@@ -175,4 +175,4 @@ Die Datei `ct-Bot.exe` bzw. `ct-Bot` beendet sich zügig wieder, wenn sie keinen
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 10.04.2021
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 18.06.2021
