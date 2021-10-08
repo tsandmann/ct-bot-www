@@ -17,9 +17,13 @@ Wer auf seinem (Linux-)System podman oder docker installiert hat, kann alternati
     sudo apt-get update
     sudo apt-get install adoptopenjdk-8-hotspot fontconfig
     ```
-    * CentOS/RHEL 8, Fedora 33:
+    ```warning
+    Unter Debian 11 ist die Darstellung des ct-Sim fehlerhaft, z.B. wird die Welt zu dunkel angezeigt. Die Ursache hierfür ist derzeit unbekannt, vermutlich ein Java3D-Problem.
+    ```
+
+    * CentOS/RHEL 8, Fedora 34:
     ```shell
-    sudo dnf install java-1.8.0-openjdk
+    sudo dnf install java-1.8.0-openjdk libXxf86vm mesa-libGL mesa-dri-drivers
     ```
 * **macOS**: 
     * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot) und installieren. *Getestete Version: 8.0.292*.
@@ -37,7 +41,7 @@ Teilweise funktionert auch ein (Open) JDK in Version 11, das beispielsweise bei 
 ```
 
 ### 2. Eclipse installieren
-[Eclipse](https://de.wikipedia.org/wiki/Eclipse_(IDE)) herunterladen und installieren, siehe [Anleitung zur Einrichtung von Eclipse](2_installation-eclipse.md). *Getestete Version: Eclipse 2021‑06*.
+[Eclipse](https://de.wikipedia.org/wiki/Eclipse_(IDE)) herunterladen und installieren, siehe [Anleitung zur Einrichtung von Eclipse](2_installation-eclipse.md). *Getestete Version: Eclipse 2021‑09*.
 
 ```note
 Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_Studio_Code) (VSCode) als IDE verwendet werden, zur Installation siehe [Anleitung zur Einrichtung von Visual Studio Code und PlatformIO](https://docs.platformio.org/en/latest/integration/ide/vscode.html#installation). Schritt III. entfällt dann ebenfalls, weil [PlatformIO](https://docs.platformio.org/en/latest/index.html) als Buildsystem verwendet wird.
@@ -53,6 +57,7 @@ Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_S
   * CentOS/RHEL 8, Fedora 34:
   ```shell
   sudo dnf groupinstall "Development Tools"
+  sudo dnf install gcc-c++
   ```
 * **macOS**: [Xcode](https://itunes.apple.com/de/app/xcode/id497799835?mt=12) installieren, im Terminal `xcode-select --install` ausführen, um die Command Line Tools zu installieren.
 * **Windows 10**:
@@ -84,7 +89,7 @@ Dieser Schritt ist nicht erforderlich, wenn Visual Studio Code als IDE mit Platf
     ```
   * Fedora 34:
     ```shell
-    sudo dnf install avr-gcc-c++ avr-libc avr-libc-doc avrdude avrdude-doc
+    sudo dnf install avr-gcc-c++ avr-libc avr-libc-doc avrdude
     ```
   * CentOS/RHEL 8: **AVR Toolchain for Linux** von [hier](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) (**8-bit** Version) herunterladen und z.B. nach `/usr/local/` entpacken. *Getestete Version: 3.6.2*.
 * **macOS**: **AVR Toolchain for Darwin** [herunterladen](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) (**8-bit** Version) und entpacken nach `/usr/local/`. *Getestete Version: 3.6.2*.
@@ -175,4 +180,4 @@ Die Datei `ct-Bot.exe` bzw. `ct-Bot` beendet sich zügig wieder, wenn sie keinen
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 18.06.2021
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 08.10.2021
