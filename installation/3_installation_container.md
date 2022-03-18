@@ -24,7 +24,7 @@ Hat man eigenen Änderungen am Code vorgenommen, sollte man das Datenverzeichnis
 wget https://github.com/tsandmann/ctbot-container/raw/master/run_eclipse.sh
 chmod +x run_eclipse.sh
 ./run_eclipse.sh PATH_TO_DATADIR [VERSION]
-# ./run_eclipse.sh . 2021-09
+# ./run_eclipse.sh . 2022-03
 ```
 
 Als `VERSION` kann auch `latest` verwendet werden, um die aktuellste Version zu starten:
@@ -94,14 +94,14 @@ cd ctbot-data
 
 ```shell
 ./run_eclipse.sh PATH_TO_DATADIR [VERSION]
-# ./run_eclipse.sh . 2021-09
+# ./run_eclipse.sh . 2022-03
 ```
 
 oder 
 
 ```shell
 ./run_eclipse-rpi.sh PATH_TO_DATADIR [VERSION]
-# ./run_eclipse-rpi.sh . 2021-09
+# ./run_eclipse-rpi.sh . 2022-03
 ```
 
 Als `VERSION` kann jeweils auch `latest` verwendet werden, um die aktuellste Version zu starten, also z.B.:
@@ -155,12 +155,12 @@ Die Start-Skripte starten die Container mit der Option `--rm`, so dass sie nach 
 
 ```shell
 podman pull IMAGE_REPO:VERSION
-# podman pull docker.io/tsandmann/ctbot-eclipse:2021-09
+# podman pull docker.io/tsandmann/ctbot-eclipse:2022-03
 ```
 oder
 ```shell
 docker pull IMAGE_REPO:VERSION
-# docker pull docker.io/tsandmann/ctbot-eclipse:2021-09
+# docker pull docker.io/tsandmann/ctbot-eclipse:2022-03
 ```
 
 Um die neueste verfügbare Version zu laden:
@@ -186,10 +186,10 @@ git clone https://github.com/tsandmann/ctbot-container.git
 cd ctbot-container
 
 ./build_eclipse.sh VERSION 
-# ./build_eclipse.sh 2021-09
+# ./build_eclipse.sh 2022-03
 
 ./build_eclipse-rpi.sh VERSION
-# ./build_eclipse-rpi.sh 2021-09
+# ./build_eclipse-rpi.sh 2022-03
 
 ./build_ctsim.sh VERSION
 # ./build_ctsim.sh 2.29.1
@@ -208,4 +208,4 @@ cd ctbot-container
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 08.10.2021
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 18.03.2022

@@ -21,12 +21,12 @@ Wer auf seinem (Linux-)System podman oder docker installiert hat, kann alternati
     Unter Debian 11 ist die Darstellung des ct-Sim fehlerhaft, z.B. wird die Welt zu dunkel angezeigt. Die Ursache hierfür ist derzeit unbekannt, vermutlich ein Java3D-Problem.
     ```
 
-    * CentOS/RHEL 8, Fedora 34:
+    * RHEL/Rocky 8, Fedora 35:
     ```shell
     sudo dnf install java-1.8.0-openjdk libXxf86vm mesa-libGL mesa-dri-drivers
     ```
 * **macOS**: 
-    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot) und installieren. *Getestete Version: 8.0.292*.
+    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptium.net/?variant=openjdk8) und installieren. *Getestete Version: jdk8u322-b06*.
     * Alternativ kann unter macOS auch der Paketmanager [Homebrew](https://brew.sh) verwendet werden:
     ```shell
     brew tap adoptopenjdk/openjdk
@@ -34,14 +34,14 @@ Wer auf seinem (Linux-)System podman oder docker installiert hat, kann alternati
     ```
 
 * **Windows 10**: 
-    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot) und installieren. *Getestete Version: 8.0.292*.
+    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptium.net/?variant=openjdk8) und installieren. *Getestete Version: jdk8u322-b06*.
 
 ```warning
 Teilweise funktionert auch ein (Open) JDK in Version 11, das beispielsweise bei Debian 10 in den offiziellen Paketquellen enthalten ist. Allerdings kann Java 11 zu [Problemen](https://bugs.launchpad.net/ubuntu/+source/openjdk-lts/+bug/1838740) mit Java3D führen, daher wird das ältere Java 8 (1.8) empfohlen und in dieser Anleitung verwendet.
 ```
 
 ### 2. Eclipse installieren
-[Eclipse](https://de.wikipedia.org/wiki/Eclipse_(IDE)) herunterladen und installieren, siehe [Anleitung zur Einrichtung von Eclipse](2_installation-eclipse.md). *Getestete Version: Eclipse 2021‑09*.
+[Eclipse](https://de.wikipedia.org/wiki/Eclipse_(IDE)) herunterladen und installieren, siehe [Anleitung zur Einrichtung von Eclipse](2_installation-eclipse.md). *Getestete Version: Eclipse 2022‑03*.
 
 ```note
 Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_Studio_Code) (VSCode) als IDE verwendet werden, zur Installation siehe [Anleitung zur Einrichtung von Visual Studio Code und PlatformIO](https://docs.platformio.org/en/latest/integration/ide/vscode.html#installation). Schritt III. entfällt dann ebenfalls, weil [PlatformIO](https://docs.platformio.org/en/latest/index.html) als Buildsystem verwendet wird.
@@ -54,7 +54,7 @@ Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_S
   ```shell
   sudo apt-get install build-essential manpages-dev git
   ```
-  * CentOS/RHEL 8, Fedora 34:
+  * RHEL/Rocky 8, Fedora 35:
   ```shell
   sudo dnf groupinstall "Development Tools"
   sudo dnf install gcc-c++
@@ -87,11 +87,11 @@ Dieser Schritt ist nicht erforderlich, wenn Visual Studio Code als IDE mit Platf
     ```shell
     sudo apt-get install gcc-avr avr-libc avrdude
     ```
-  * Fedora 34:
+  * Fedora 35:
     ```shell
     sudo dnf install avr-gcc-c++ avr-libc avr-libc-doc avrdude
     ```
-  * CentOS/RHEL 8: **AVR Toolchain for Linux** von [hier](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) (**8-bit** Version) herunterladen und z.B. nach `/usr/local/` entpacken. *Getestete Version: 3.6.2*.
+  * RHEL/Rocky 8: **AVR Toolchain for Linux** von [hier](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) (**8-bit** Version) herunterladen und z.B. nach `/usr/local/` entpacken. *Getestete Version: 3.6.2*.
 * **macOS**: **AVR Toolchain for Darwin** [herunterladen](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) (**8-bit** Version) und entpacken nach `/usr/local/`. *Getestete Version: 3.6.2*.
 * **Windows 10**: **AVR Toolchain for Windows** [herunterladen](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) und installieren. Das Installationsprogramm sollte man dabei explizit als Administrator ausführen (via Kontextmenü), sonst schlägt der Installer einen komischen Installationsort vor anstatt höhere Rechte anzufordern. *Getestete Version: 3.6.2*.
 
@@ -180,4 +180,4 @@ Die Datei `ct-Bot.exe` bzw. `ct-Bot` beendet sich zügig wieder, wenn sie keinen
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 08.10.2021
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 18.03.2022
