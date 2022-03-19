@@ -8,11 +8,13 @@ Seit Projektstart ist um das Projekt eine Community entstanden, welche das Proje
 
 # Community und Support
 
-## Chat/Instant Messenger
+[![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#ctbot:matrix.org)
+
+## Chat/Instant Messenger 
 
 * <a href="https://de.wikipedia.org/wiki/Matrix_%28Kommunikationsprotokoll%29" target="_blank">Matrix</a> (bspw. mit dem Client <a href="https://element.io" target="_blank">Element</a>, frei, föderal)
-  * <a href="https://app.element.io/#/room/%23ctbot:matrix.org" target="_blank">Direktzugang zum ct-Bot-Channel</a> über die Web-App von Element
-  * <a href="https://app.element.io/#/room/%23ct-Bot-news:matrix.org" target="_blank">Direktzugang zum News-Channel</a> über die Web-App von Element
+  * Direktzugang zum ct-Bot-Channel über <a href="https://app.element.io/#/room/#ctbot:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbot:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
+  * Direktzugang zum News-Channel über <a href="https://app.element.io/#/room/#ctbotnews:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbotnews:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
 * <a href="https://de.wikipedia.org/wiki/Slack_%28Software%29" target="_blank">Slack</a> (proprietär, zentralisiert)
   * <a href="https://ct-bot-slack.herokuapp.com" target="_blank">Registrierung zum ct-Bot-Workspace</a>
 
@@ -73,4 +75,4 @@ Das Software-Framework des ct-Bot erfüllt sehr unterschiedliche Anforderungen:
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Bild: *ct-Bot ohne Kabel* von <a href="https://github.com/robotfreak" target="_blank" style="color:#3c454e;">Peter Recktenwald</a> (CC BY-SA 3.0) \| Stand: 18.03.2022
+Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Bild: *ct-Bot ohne Kabel* von <a href="https://github.com/robotfreak" target="_blank" style="color:#3c454e;">Peter Recktenwald</a> (CC BY-SA 3.0) \| Stand: 19.03.2022
