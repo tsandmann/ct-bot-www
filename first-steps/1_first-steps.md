@@ -16,7 +16,7 @@ Zum Projekt gibt es viel Dokumentation, hier ein paar generelle Anlaufadressen:
 1. Die <a href="https://www.heise.de/ct/artikel/c-t-Bot-und-c-t-Sim-284119.html" target="_blank">ehemalige, offizielle Projektseite</a> des c't-Magazins (nicht mehr gepflegt, somit zum Teil veraltete Inhalte)
 1. Die Liste an <a href="https://www.heise.de/ct/artikel/FAQ-fuer-c-t-Bot-und-c-t-SIM-291940.html" target="_blank">FAQs für ct-Bot und ct-Sim</a> (nicht mehr gepflegt, somit zum Teil veraltete Inhalte)
 1. Das <a href="https://www.heise.de/forum/c-t/Kommentare-zu-c-t-Artikeln/c-t-Bot-und-c-t-Sim/forum-23074/" target="_blank">Heise Forum</a> (nicht mehr aktiv, somit zum Teil veraltete Inhalte)
-1. Das <a href="https://www.heise.de/ct/newsletter/archiv/ct-bot-entwickler/" target="_blank">Archiv der ehemaligen Mailingliste</a> (nicht mehr aktiv, somit zum Teil veraltete Inhalte)
+1. Das <a href="https://www.heise.de/ct/Aeltere-c-t-Projekte-4274377.html" target="_blank">Archiv der ehemaligen Mailingliste</a> enthält noch den ein oder anderen Schatz an Informationen, die allerdings nicht mehr aktuell sein müssen.
 
 ## Support
 
@@ -54,4 +54,4 @@ Für alle, die einen ct-Bot besitzen, geht es nun mit der <a href="https://githu
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 02.01.2021
+Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 13.05.2022

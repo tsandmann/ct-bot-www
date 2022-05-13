@@ -45,7 +45,6 @@ Für detaillierte Dokumentationen inkl. technischer Details, Spezifikationen und
 
 * Die <a href="https://www.heise.de/ct/artikel/c-t-Bot-und-c-t-Sim-284119.html" target="_blank">ehemalige, offizielle Projektseite</a> des c't-Magazins von Heise wird nicht mehr gepflegt und enthält somit zum Teil auch veraltete Inhalte.
 * Die Liste an <a href="https://www.heise.de/ct/artikel/FAQ-fuer-c-t-Bot-und-c-t-SIM-291940.html" target="_blank">FAQs für ct-Bot und ct-Sim</a> wird nicht mehr gepflegt und enthält somit zum Teil auch veraltete Inhalte.
-* Das <a href="https://www.heise.de/ct/newsletter/archiv/ct-bot-entwickler/" target="_blank">Archiv der ehemaligen Mailingliste</a> enthält noch den ein oder anderen Schatz an Informationen, die allerdings auch nicht mehr aktuell sein müssen.
 
 # Source Code
 
@@ -75,4 +74,4 @@ Das Software-Framework des ct-Bot erfüllt sehr unterschiedliche Anforderungen:
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Bild: *ct-Bot ohne Kabel* von <a href="https://github.com/robotfreak" target="_blank" style="color:#3c454e;">Peter Recktenwald</a> (CC BY-SA 3.0) \| Stand: 19.03.2022
+Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Bild: *ct-Bot ohne Kabel* von <a href="https://github.com/robotfreak" target="_blank" style="color:#3c454e;">Peter Recktenwald</a> (CC BY-SA 3.0) \| Stand: 13.05.2022
