@@ -21,20 +21,20 @@ Wer auf seinem (Linux-)System podman oder docker installiert hat, kann alternati
     Unter Debian 11 ist die Darstellung des ct-Sim fehlerhaft, z.B. wird die Welt zu dunkel angezeigt. Die Ursache hierfür ist derzeit unbekannt, vermutlich ein Java3D-Problem.
     ```
 
-    * RHEL/Rocky 8, Fedora 35:
+    * RHEL/Rocky 8/9, Fedora 36:
     ```shell
     sudo dnf install java-1.8.0-openjdk libXxf86vm mesa-libGL mesa-dri-drivers
     ```
 * **macOS**: 
-    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptium.net/?variant=openjdk8) und installieren. *Getestete Version: jdk8u322-b06*.
+    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptium.net/?variant=openjdk8) und installieren. *Getestete Version: jdk8u332-b09*.
     * Alternativ kann unter macOS auch der Paketmanager [Homebrew](https://brew.sh) verwendet werden:
     ```shell
     brew tap adoptopenjdk/openjdk
     brew install adoptopenjdk8
     ```
 
-* **Windows 10**: 
-    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptium.net/?variant=openjdk8) und installieren. *Getestete Version: jdk8u322-b06*.
+* **Windows 10/11**: 
+    * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptium.net/?variant=openjdk8) und installieren. *Getestete Version: jdk8u332-b09*.
 
 ```warning
 Teilweise funktionert auch ein (Open) JDK in Version 11, das beispielsweise bei Debian 10 in den offiziellen Paketquellen enthalten ist. Allerdings kann Java 11 zu [Problemen](https://bugs.launchpad.net/ubuntu/+source/openjdk-lts/+bug/1838740) mit Java3D führen, daher wird das ältere Java 8 (1.8) empfohlen und in dieser Anleitung verwendet.
@@ -54,20 +54,20 @@ Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_S
   ```shell
   sudo apt-get install build-essential manpages-dev git
   ```
-  * RHEL/Rocky 8, Fedora 35:
+  * RHEL/Rocky 8/9, Fedora 36:
   ```shell
   sudo dnf groupinstall "Development Tools"
   sudo dnf install gcc-c++
   ```
 * **macOS**: [Xcode](https://itunes.apple.com/de/app/xcode/id497799835?mt=12) installieren, im Terminal `xcode-select --install` ausführen, um die Command Line Tools zu installieren.
-* **Windows 10**:
+* **Windows 10/11**:
   1. msys2 installieren (siehe auch [msys2 Installationsanleitung](http://msys2.github.io)):
      1. Installer [hier](http://msys2.github.io) herunterladen (`msys2-x86_64-*.exe`) und ausführen.
      1. Als Installationsordner `C:\msys64` verwenden (wie gehen hier von der 64-Bit Version aus).
   1. gcc von msys2 installieren:
-     1. *MinGW-w64 Win64 Shell* starten.
+     1. *MSYS2 MSYS Shell* starten.
      1. `pacman -Suy` ausführen, um msys2 zu aktualisieren.
-     1. `pacman -S mingw-w64-x86_64-gcc make` ausführen, um gcc Toolchain zu installieren.
+     1. `pacman -S --needed base-devel mingw-w64-x86_64-toolchain make` ausführen, um gcc Toolchain zu installieren.
   1. Path-Einträge in Eclipse ergänzen:
      1. In Eclipse `Window` -> `Preferences` -> `C/C++` -> `Build` -> `Environment` öffnen.
      1. Dann `Select...` -> `Path` -> `Edit...` auswählen.
@@ -87,13 +87,13 @@ Dieser Schritt ist nicht erforderlich, wenn Visual Studio Code als IDE mit Platf
     ```shell
     sudo apt-get install gcc-avr avr-libc avrdude
     ```
-  * Fedora 35:
+  * Fedora 36:
     ```shell
     sudo dnf install avr-gcc-c++ avr-libc avr-libc-doc avrdude
     ```
-  * RHEL/Rocky 8: **AVR Toolchain for Linux** von [hier](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) (**8-bit** Version) herunterladen und z.B. nach `/usr/local/` entpacken. *Getestete Version: 3.6.2*.
-* **macOS**: **AVR Toolchain for Darwin** [herunterladen](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) (**8-bit** Version) und entpacken nach `/usr/local/`. *Getestete Version: 3.6.2*.
-* **Windows 10**: **AVR Toolchain for Windows** [herunterladen](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) und installieren. Das Installationsprogramm sollte man dabei explizit als Administrator ausführen (via Kontextmenü), sonst schlägt der Installer einen komischen Installationsort vor anstatt höhere Rechte anzufordern. *Getestete Version: 3.6.2*.
+  * RHEL/Rocky 8/9: **AVR Toolchain for Linux** von [hier](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) (**8-bit** Version) herunterladen und z.B. nach `/usr/local/` entpacken. *Getestete Version: 3.7.0*.
+* **macOS**: **AVR Toolchain for Darwin** [herunterladen](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) (**8-bit** Version) und entpacken nach `/usr/local/`. *Getestete Version: 3.7.0*.
+* **Windows 10/11**: **AVR Toolchain for Windows** [herunterladen](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) und installieren. Das Installationsprogramm sollte man dabei explizit als Administrator ausführen (via Kontextmenü), sonst schlägt der Installer einen komischen Installationsort vor anstatt höhere Rechte anzufordern. *Getestete Version: 3.7.0*.
 
 * Den Pfad zum avr-gcc (Unterverzeichnis `bin`) in Eclipse zum **PATH** hinzufügen, falls die Toolchain nicht über einen (Linux-) Paketmanager installiert wurde:
    1. In Eclipse `Window` -> `Preferences` -> `C/C++` -> `Build` -> `Environment` öffnen.
@@ -147,7 +147,7 @@ Die Datei `ct-Bot.exe` bzw. `ct-Bot` beendet sich zügig wieder, wenn sie keinen
     ```shell
     sudo git clone --depth=1 https://github.com/tsandmann/arm-toolchain-mac.git /usr/local/arm-unknown-linux-gnueabihf
     ```
-* **Windows 10**:
+* **Windows 10/11**:
   1. Linaro Toolchain `gcc-linaro-7.1.1-2017.05-i686-mingw32_arm-linux-gnueabihf.tar.xz` von [hier](https://releases.linaro.org/components/toolchain/binaries/7.1-2017.05/arm-linux-gnueabihf/) herunterladen.
   1. Das Archiv nach `C:\Program Files (x86)\arm-linux-gnueabihf` entpacken.
 * Den Pfad zum arm-gcc (Unterverzeichnis `bin`) anschließend ebenfalls in Eclipse zum **PATH** hinzufügen:
@@ -168,7 +168,7 @@ Die Datei `ct-Bot.exe` bzw. `ct-Bot` beendet sich zügig wieder, wenn sie keinen
     ```shell
     sudo git clone --depth=1 https://github.com/tsandmann/armv8l-toolchain-mac.git /usr/local/armv8l-unknown-linux-gnueabihf
     ```
-* **Windows 10**:
+* **Windows 10/11**:
   1. Linaro Toolchain `gcc-linaro-7.1.1-2017.05-i686-mingw32_armv8l-linux-gnueabihf.tar.xz` von [hier](https://releases.linaro.org/components/toolchain/binaries/7.1-2017.05/armv8l-linux-gnueabihf/) herunterladen.
   1. Das Archive nach `C:\Program Files (x86)\armv8l-unknown-linux-gnueabihf` entpacken.
 * Den Pfad zum arm-gcc (Unterverzeichnis `bin`) anschließend ebenfalls in Eclipse zum **PATH** hinzufügen:
@@ -180,4 +180,4 @@ Die Datei `ct-Bot.exe` bzw. `ct-Bot` beendet sich zügig wieder, wenn sie keinen
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 18.03.2022
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 02.06.2022
