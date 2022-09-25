@@ -12,15 +12,9 @@ Seit Projektstart ist um das Projekt eine Community entstanden, welche das Proje
 
 ## Chat/Instant Messenger 
 
-* <a href="https://de.wikipedia.org/wiki/Matrix_%28Kommunikationsprotokoll%29" target="_blank">Matrix</a> (bspw. mit dem Client <a href="https://element.io" target="_blank">Element</a>, frei, föderal)
-  * Direktzugang zum ct-Bot-Channel über <a href="https://app.element.io/#/room/#ctbot:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbot:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
-  * Direktzugang zum News-Channel über <a href="https://app.element.io/#/room/#ctbotnews:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbotnews:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
-* <a href="https://de.wikipedia.org/wiki/Slack_%28Software%29" target="_blank">Slack</a> (proprietär, zentralisiert)
-  * <a href="https://ct-bot-slack.herokuapp.com" target="_blank">Registrierung zum ct-Bot-Workspace</a>
-
-```tip
-Da Matrix und Slack synchronisiert sind, zeigen sie dieselben Inhalte und können nach persönlicher Präferenz gewählt werden.
-```
+Für den direkten Austausch in der Community gibt es einen <a href="https://de.wikipedia.org/wiki/Matrix_%28Kommunikationsprotokoll%29" target="_blank">Matrix</a>-Chat, der bspw. mit dem Client <a href="https://de.wikipedia.org/wiki/Element_(Instant-Messenger)" target="_blank">Element</a> verwendet werden kann:
+* Direktzugang zum ct-Bot-Channel über <a href="https://app.element.io/#/room/#ctbot:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbot:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
+* Direktzugang zum News-Channel über <a href="https://app.element.io/#/room/#ctbotnews:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbotnews:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
 
 ## Forum
 
