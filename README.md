@@ -8,13 +8,14 @@ Seit Projektstart ist um das Projekt eine Community entstanden, welche das Proje
 
 # Community und Support
 
-[![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#ctbot:matrix.org)
+[![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#ctbot-community:matrix.org)
 
 ## Chat/Instant Messenger 
 
 Für den direkten Austausch in der Community gibt es einen <a href="https://de.wikipedia.org/wiki/Matrix_%28Kommunikationsprotokoll%29" target="_blank">Matrix</a>-Chat, der bspw. mit dem Client <a href="https://de.wikipedia.org/wiki/Element_(Instant-Messenger)" target="_blank">Element</a> verwendet werden kann:
-* Direktzugang zum ct-Bot-Channel über <a href="https://app.element.io/#/room/#ctbot:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbot:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
-* Direktzugang zum News-Channel über <a href="https://app.element.io/#/room/#ctbotnews:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbotnews:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
+* Zugang zum ct-Bot-Space über <a href="https://app.element.io/#/room/#ctbot-community:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbot-community:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
+  * Direktzugang zum ct-Bot-Channel über <a href="https://app.element.io/#/room/#ctbot:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbot:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
+  * Direktzugang zum News-Channel über <a href="https://app.element.io/#/room/#ctbotnews:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbotnews:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
 
 ## Forum
 
@@ -68,4 +69,4 @@ Das Software-Framework des ct-Bot erfüllt sehr unterschiedliche Anforderungen:
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Bild: *ct-Bot ohne Kabel* von <a href="https://github.com/robotfreak" target="_blank" style="color:#3c454e;">Peter Recktenwald</a> (CC BY-SA 3.0) \| Stand: 13.05.2022
+Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Bild: *ct-Bot ohne Kabel* von <a href="https://github.com/robotfreak" target="_blank" style="color:#3c454e;">Peter Recktenwald</a> (CC BY-SA 3.0) \| Stand: 25.09.2022
