@@ -13,7 +13,7 @@ Die Quelltexte von ct-Bot und ct-Sim sind auf [GitHub](https://github.com) verf�
 
     <img src="images/git-vsc-02.png" width="1000" style="display:block;margin-left:0;margin-right:auto;">
 
-1. Als URL für den ct-Bot Code `https://github.com/tsandmann/ct-bot.git` oder für den ct-Sim Code `https://github.com/tsandmann/ct-sim.git` angeben und mit Enter bestätigen:
+1. Als URL für den ct-Bot Code `https://github.com/tsandmann/ct-bot.git` angeben und mit Enter bestätigen:
 
     <img src="images/git-vsc-03.png" width="1000" style="display:block;margin-left:0;margin-right:auto;">
 
@@ -24,6 +24,10 @@ Die Quelltexte von ct-Bot und ct-Sim sind auf [GitHub](https://github.com) verf�
 1. ... lässt es sich das Projekt mit einem Klick auf `Open` direkt öffnen:
 
     <img src="images/git-vsc-05.png" width="1000" style="display:block;margin-left:0;margin-right:auto;">
+
+```note
+Der ct-Sim Code muss nicht importiert werden, wenn der Simulator nicht aktiv weiterentwickelt werden soll. Dann ist es ausreichend, das Binary des letzten Releases herunterzuladen, siehe [Installationsanleitung](../installation/1_installation-allgemein.md#ct-sim-und-virtuelle-bots-starten). 
+```
 
 ## Aufbau der Repositories
 
@@ -47,4 +51,4 @@ Um den Branch zu wechseln, wählt man in der `Source Control`-Ansicht (Strg + Sh
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 20.12.2020
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 09.10.2022

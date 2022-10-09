@@ -21,7 +21,7 @@ Wer auf seinem (Linux-)System podman oder docker installiert hat, kann alternati
     Unter Debian 11 ist die Darstellung des ct-Sim fehlerhaft, z.B. wird die Welt zu dunkel angezeigt. Die Ursache hierfür ist derzeit unbekannt, vermutlich ein Java3D-Problem.
     ```
 
-    * RHEL/Rocky 8/9, Fedora 36:
+    * RHEL/Rocky 8/9, Fedora (36):
     ```shell
     sudo dnf install java-1.8.0-openjdk libXxf86vm mesa-libGL mesa-dri-drivers
     ```
@@ -54,7 +54,7 @@ Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_S
   ```shell
   sudo apt-get install build-essential manpages-dev git
   ```
-  * RHEL/Rocky 8/9, Fedora 36:
+  * RHEL/Rocky 8/9, Fedora (36):
   ```shell
   sudo dnf groupinstall "Development Tools"
   sudo dnf install gcc-c++
@@ -87,7 +87,7 @@ Dieser Schritt ist nicht erforderlich, wenn Visual Studio Code als IDE mit Platf
     ```shell
     sudo apt-get install gcc-avr avr-libc avrdude
     ```
-  * Fedora 36:
+  * Fedora (36):
     ```shell
     sudo dnf install avr-gcc-c++ avr-libc avr-libc-doc avrdude
     ```
@@ -110,9 +110,18 @@ Der Code steht im GIT-Repository zur Verfügung, siehe [Import des Codes von Git
 Evtl. bekommt man in Eclipse Warnings ähnlich der Folgenden angezeigt: *Program "arm-linux-gnueabihf-g++" not found in PATH* Diese kann man ignorieren, wenn man das zugehörige Target nicht braucht (z.B. Build für Raspberry Pi im Falle von arm-linux-gnueabihf). Um die Warnings zu entfernen kann man die nicht benötigten Configurations in den Projekteinstellungen unter `C/C++ Build` -> `Manage Configurations...` löschen.
 ```
 
-### ct-Sim und virtuelle Bots aus Eclipse starten
+### ct-Sim und virtuelle Bots starten
 
-1. ct-Sim starten. Hierzu gibt es zwei gleichwertige Möglichkeiten:
+1. ct-Sim starten. Hierzu gibt es drei Möglichkeiten:
+    * Fertiges ct-Sim Release als jar-Archiv *ct-Sim.jar* [hier](https://github.com/tsandmann/ct-sim/releases) herunterladen und von der Kommandozeile mit `java -jar ct-Sim.jar` starten.
+
+      ```note
+      Sind mehrere Java-Versionen auf dem System installiert, muss `java` durch den vollen Pfad zur Java-Version 8 ersetzt werden, z.B. `/usr/lib/jvm/java-1.8.0/bin/java`.
+      ```
+
+      ```tip
+      Dies ist die bevorzugte Methode, wenn der Simulator nicht weiterentwickelt werden soll. Der Sourcecode ist dann nicht erforderlich, daher muss das git-Repository "ct-sim" nicht geladen werden.
+      ```
     * In **Eclipse** klickt man die Datei `ctSim/controller/Main.java` rechts an und wählt `Run As` -> `Application`.
 
       ```tip
@@ -180,4 +189,4 @@ Die Datei `ct-Bot.exe` bzw. `ct-Bot` beendet sich zügig wieder, wenn sie keinen
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 02.06.2022
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 09.10.2022
