@@ -113,14 +113,14 @@ Evtl. bekommt man in Eclipse Warnings ähnlich der Folgenden angezeigt: *Program
 ### ct-Sim und virtuelle Bots starten
 
 1. ct-Sim starten. Hierzu gibt es drei Möglichkeiten:
-    * Fertiges ct-Sim Release als jar-Archiv *ct-Sim.jar* [hier](https://github.com/tsandmann/ct-sim/releases) herunterladen und von der Kommandozeile mit `java -jar ct-Sim.jar` starten.
+    * Fertiges ct-Sim Release als jar-Archiv *ct-Sim.jar* <a href="https://github.com/tsandmann/ct-sim/releases" target="_blank">hier</a> herunterladen und von der Kommandozeile mit `java -jar ct-Sim.jar` starten.
 
       ```note
       Sind mehrere Java-Versionen auf dem System installiert, muss `java` durch den vollen Pfad zur Java-Version 8 ersetzt werden, z.B. `/usr/lib/jvm/java-1.8.0/bin/java`.
       ```
 
       ```tip
-      Dies ist die bevorzugte Methode, wenn der Simulator nicht weiterentwickelt werden soll. Der Sourcecode ist dann nicht erforderlich, daher muss das git-Repository "ct-sim" nicht geladen werden.
+      Dies ist die bevorzugte Methode, wenn der Simulator nicht weiterentwickelt werden soll. Der Sourcecode ist dann nicht erforderlich, daher muss das git-Repository *ct-sim* nicht geladen werden.
       ```
     * In **Eclipse** klickt man die Datei `ctSim/controller/Main.java` rechts an und wählt `Run As` -> `Application`.
 
