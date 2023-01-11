@@ -10,6 +10,10 @@ Ein Programmieradapter verbindet den ISP-Port des Roboters mit dem PC. Über ihn
 Das nachfolgend aufgeführte Kommandozeilen-Argument (`-p m1284p`) gilt jeweils für den im ct-Bot Projekt empfohlenen Mikrocontroller *ATmega1284P*. Wer einen älteren Controller einsetzt (*ATmega644(P)* oder *ATmega32*), findet im Abschnitt [unten](#hinweise-für-besitzer-eines-atmega32-oder-atmega644p-mikrocontrollers) die dafür nötigen Parameter.
 ```
 
+```tip
+Werden die fertigen Container-Images zur Entwicklung eingesetzt, muss der Pfad zum Programmieradapter in den Container gemounted werden, siehe hierzu [Fertige Container-Images zur Entwicklung](../installation/3_installation_container.md#übertragen-der-firmware-auf-einen-realen-ct-bot).
+```
+
 ```warning
 Die hier aufgeführte Auswahl an Programmieradaptern ist zum Teil veraltet (*Atmel mkII* und *AVR Dragon* werden inzwischen nicht mehr verkauft) und sollte daher aktualisiert werden.
 ```
@@ -224,4 +228,4 @@ avrdude schickt dem Bootloader zuerst ein Start-Kommando und erwartet daraufhin 
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autoren: <a href="https://github.com/r4dh4l" target="_blank" style="color:#3c454e;">anonybot</a>, Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 26.12.2020
+Autoren: <a href="https://github.com/r4dh4l" target="_blank" style="color:#3c454e;">anonybot</a>, Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 11.01.2023

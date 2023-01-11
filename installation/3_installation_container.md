@@ -1,8 +1,8 @@
 # Fertige Container-Images zur Entwicklung
 
-```warning
-Diese Anleitung befindet sich aktuell noch im Aufbau. Bei Fragen oder Unklarheiten hilft der [Support](../README.md#community-und-support) weiter.
-```
+## Support
+
+Bei Fragen oder Unklarheiten hilft der [Support](../README.md#community-und-support) weiter.
 
 ## Installation
 
@@ -24,10 +24,10 @@ Hat man eigenen Änderungen am Code vorgenommen, sollte man das Datenverzeichnis
 wget https://github.com/tsandmann/ctbot-container/raw/master/run_eclipse.sh
 chmod +x run_eclipse.sh
 ./run_eclipse.sh PATH_TO_DATADIR [VERSION]
-# ./run_eclipse.sh . 2022-03
+# ./run_eclipse.sh .
 ```
 
-Als `VERSION` kann auch `latest` verwendet werden, um die aktuellste Version zu starten:
+Als `VERSION` kann explizit eine Eclipse-Version angegben werden wie beispielsweise `2022-12` oder auch `latest`, um die neueste (geladene) Version zu starten:
 ```shell
 ./run_eclipse.sh . latest
 ```
@@ -46,7 +46,7 @@ Wurde Eclipse (oder die Eclipse-Einstellungen) "kaputtgespielt", kann die ganze 
 wget https://github.com/tsandmann/ctbot-container/raw/master/run_eclipse-rpi.sh
 chmod +x run_eclipse-rpi.sh
 ./run_eclipse-rpi.sh PATH_TO_DATADIR [VERSION]
-# ./run_eclipse-rpi.sh . latest
+# ./run_eclipse-rpi.sh .
 ```
 
 ```note
@@ -65,10 +65,10 @@ Die ct-Sim-Images sind nützlich, falls nur der ct-Sim benötigt wird (z.B. wenn
 wget https://github.com/tsandmann/ctbot-container/raw/master/run_ctsim.sh
 chmod +x run_ctsim.sh
 ./run_ctsim.sh PATH_TO_DATADIR [VERSION]
-# ./run_ctsim.sh . 2.29.1
+# ./run_ctsim.sh .
 ```
 
-Als `VERSION` kann auch `latest` verwendet werden, um die aktuellste Version zu starten:
+Als `VERSION` kann explizit eine ct-Sim-Version angegben werden wie beispielsweise `2.29.2` oder auch `latest`, um die neueste (geladene) Version zu starten:
 ```shell
 ./run_ctsim.sh . latest
 ```
@@ -94,19 +94,28 @@ cd ctbot-data
 
 ```shell
 ./run_eclipse.sh PATH_TO_DATADIR [VERSION]
-# ./run_eclipse.sh . 2022-03
+# ./run_eclipse.sh .
 ```
 
 oder 
 
 ```shell
 ./run_eclipse-rpi.sh PATH_TO_DATADIR [VERSION]
-# ./run_eclipse-rpi.sh . 2022-03
+# ./run_eclipse-rpi.sh .
 ```
 
-Als `VERSION` kann jeweils auch `latest` verwendet werden, um die aktuellste Version zu starten, also z.B.:
+Als `VERSION` kann explizit eine Eclipse-Version angegben werden wie beispielsweise `2022-12` oder auch `latest`, um die neueste (geladene) Version zu starten:
 ```shell
 ./run_eclipse.sh . latest
+```
+
+### Übertragen der Firmware auf einen realen ct-Bot
+
+Um die Firmware auf einen realen ct-Bot über USB übertragen zu können, muss der Programmieradapter im Container verfügbar gemacht werden. Hierzu muss ein weiterer Parameter angegeben werden, der den Pfad zum Adapter enthält. Der Pfad ist dabei der Teil, der unter [Übertragen der Firmware auf den ct-Bot](../usage/3_usage-avrdude.md) hinter `-P` angegeben ist:
+* z.B. für Bootloader oder mySmartUSB: `./run_eclipse.sh . latest --device=/dev/ttyUSB0`
+
+```note
+Da ein weiterer Parameter übergeben wird, muss die Version des Images (oder latest) immer explizit mit angegeben werden.
 ```
 
 ### Eclipse-Workspace bereinigen
@@ -125,10 +134,10 @@ rm -rf .metadata
 
 ```shell
 ./run_ctsim.sh PATH_TO_DATADIR [VERSION]
-# ./run_ctsim.sh . 2.29.1
+# ./run_ctsim.sh .
 ```
 
-Als `VERSION` kann auch `latest` verwendet werden, um die aktuellste Version zu starten:
+Als `VERSION` kann explizit eine ct-Sim-Version angegben werden wie beispielsweise `2.29.2` oder auch `latest`, um die neueste (geladene) Version zu starten:
 ```shell
 ./run_ctsim.sh . latest
 ```
@@ -137,7 +146,7 @@ Als `VERSION` kann auch `latest` verwendet werden, um die aktuellste Version zu 
 
 #### Eigene Parameter
 
-Hängt man an das Start-Skript weitere Parameter an, werden diese direkt an den `run`-Aufruf des Containers weitergereicht. So lassen sich z.B. weitere Verzeichnisse in den Container mounten, Programmier- bzw. USB-2-Bot-Adapter im Container verfügbar machen oder Ports forwarden.
+Hängt man an das Start-Skript weitere Parameter an, werden diese direkt an den `run`-Aufruf des Containers weitergereicht. So lassen sich z.B. weitere Verzeichnisse in den Container mounten, Programmier- bzw. USB-2-Bot-Adapter im Container verfügbar machen oder Ports forwarden. Dabei muss die Version des Images immer explizit mit angeben werden.
 
 Beispiele:
 * USB-2-Bot-Adapter verwenden: `./run_eclipse.sh . latest --device=/dev/ttyUSB0`
@@ -155,18 +164,23 @@ Die Start-Skripte starten die Container mit der Option `--rm`, so dass sie nach 
 
 ```shell
 podman pull IMAGE_REPO:VERSION
-# podman pull docker.io/tsandmann/ctbot-eclipse:2022-03
+# podman pull docker.io/tsandmann/ctbot-eclipse:2022-12
 ```
 oder
 ```shell
 docker pull IMAGE_REPO:VERSION
-# docker pull docker.io/tsandmann/ctbot-eclipse:2022-03
+# docker pull docker.io/tsandmann/ctbot-eclipse:2022-12
 ```
 
 Um die neueste verfügbare Version zu laden:
 ```shell
 podman pull IMAGE_REPO:latest
 # podman pull docker.io/tsandmann/ctbot-eclipse:latest
+```
+oder
+```shell
+docker pull IMAGE_REPO:latest
+# docker pull docker.io/tsandmann/ctbot-eclipse:latest
 ```
 
 ### Alte Container-Images aufräumen
@@ -186,13 +200,13 @@ git clone https://github.com/tsandmann/ctbot-container.git
 cd ctbot-container
 
 ./build_eclipse.sh VERSION 
-# ./build_eclipse.sh 2022-03
+# ./build_eclipse.sh 2022-12
 
 ./build_eclipse-rpi.sh VERSION
-# ./build_eclipse-rpi.sh 2022-03
+# ./build_eclipse-rpi.sh 2022-12
 
 ./build_ctsim.sh VERSION
-# ./build_ctsim.sh 2.29.1
+# ./build_ctsim.sh 2.29.2
 ```
 
 ## Quellen
@@ -208,4 +222,4 @@ cd ctbot-container
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 18.03.2022
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 11.01.2023
