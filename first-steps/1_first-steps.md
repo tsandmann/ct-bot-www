@@ -51,7 +51,9 @@ Nun hat man einen virtuellen Bot im Simulator. Möchte man dem Bot eigene Kunsts
 
 Für alle, die einen ct-Bot besitzen, geht es nun mit der <a href="https://github.com/Nightwalker-87/ct-bot-doku/blob/master/doc/wiki_main.md#ct-bot" target="_blank">Hardware-Dokumentation</a> weiter, insbesondere mit der <a href="https://github.com/Nightwalker-87/ct-bot-doku/blob/master/doc/wiki_pages_deprecated/ct-bot_assembly.md#aufbauanleitung-für-den-ct-bot" target="_blank">Aufbauanleitung</a>.
 
+Beim Überprüfen des eigenen Hardwareaufbaus hilft das <a href="https://github.com/tsandmann/ct-bot-doku/blob/master/_tmp_materialpool/hardware/ct-bot_messprotokoll.pdf" target="_blank">ct-Bot Messprotokoll</a>, mit dem sich elektrische Messwerte systematisch <a href="https://github.com/tsandmann/ct-bot-doku/blob/master/_tmp_materialpool/hardware/ct-bot_messprotokoll.odt" target="_blank">erfassen</a> und mit Beispieldaten vergleichen lassen.
+
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 13.05.2022
+Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 30.09.2023
