@@ -1,9 +1,9 @@
 # Installationsanleitung für Eclipse
 
-Die folgende Anleitung beschreibt die Installation von **Eclipse 2022‑03** inkl. der erforderlichen **Plugins**.
+Die folgende Anleitung beschreibt die Installation von **Eclipse 2023‑09** inkl. der erforderlichen **Plugins**.
 
 ```warning
-Eclipse 2022‑03 ist die aktuell empfohlene Version, einige ältere Versionen (4.x zurück bis Luna 4.4, 3.x bis Galileo 3.5) funktionieren grunsätzlich auch, noch Ältere hingegen nicht einwandfrei. Insbesondere zum Entwickeln des Bot-Steuercodes in C sollte man eine aktuelle Eclipse Version verwenden, weil gerade das CDT Plugin erhebliche Verbesserungen erfahren hat.
+Eclipse 2023‑09 ist die aktuell empfohlene Version, einige ältere Versionen (4.x zurück bis Luna 4.4, 3.x bis Galileo 3.5) funktionieren grunsätzlich auch, noch Ältere hingegen nicht einwandfrei. Insbesondere zum Entwickeln des Bot-Steuercodes in C sollte man eine aktuelle Eclipse Version verwenden, weil gerade das CDT Plugin erhebliche Verbesserungen erfahren hat.
 ```
 
 ## Eclipse Basisinstallation
@@ -77,4 +77,4 @@ Zum Import des Codes aus dem [Git-Repository](https://github.com/tsandmann/ct-bo
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 18.03.2022
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 15.10.2023

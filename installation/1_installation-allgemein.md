@@ -11,17 +11,26 @@ Wer auf seinem (Linux-)System podman oder docker installiert hat, kann alternati
 * **Linux**: Java SE 8 **JDK** (OpenJDK) am besten über die Paketverwaltung installieren, empfohlen für ct-Sim ist **Version 1.8**.
     * Debian 10: 
     ```shell
-    sudo apt-get install --no-install-recommends apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common
+    sudo apt-get install --no-install-recommends apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common fontconfig
     wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
     sudo add-apt-repository https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
     sudo apt-get update
-    sudo apt-get install adoptopenjdk-8-hotspot fontconfig
+    sudo apt-get install adoptopenjdk-8-hotspot
     ```
     ```warning
     Unter Debian 11 ist die Darstellung des ct-Sim fehlerhaft, z.B. wird die Welt zu dunkel angezeigt. Die Ursache hierfür ist derzeit unbekannt, vermutlich ein Java3D-Problem.
     ```
 
-    * RHEL/Rocky 8/9, Fedora (36):
+    * Debian 12: 
+    ```shell
+    sudo apt-get install --no-install-recommends apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common fontconfig mesa-utils libgl1-mesa-glx libgl1-mesa-dri
+    wget -qO - https://repos.azul.com/azul-repo.key | sudo gpg --dearmor -o /usr/share/keyrings/azul.gpg
+    echo "deb [signed-by=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/deb stable main" | sudo tee -a /etc/apt/sources.list.d/zulu.list
+    sudo apt-get update
+    sudo apt-get install zulu8-jdk
+    ```
+
+    * RHEL/Rocky 8/9, Fedora:
     ```shell
     sudo dnf install java-1.8.0-openjdk libXxf86vm mesa-libGL mesa-dri-drivers
     ```
@@ -37,7 +46,7 @@ Wer auf seinem (Linux-)System podman oder docker installiert hat, kann alternati
     * Java SE 8 **JDK** (OpenJDK) [herunterladen](https://adoptium.net/?variant=openjdk8) und installieren. *Getestete Version: jdk8u332-b09*.
 
 ```warning
-Teilweise funktionert auch ein (Open) JDK in Version 11, das beispielsweise bei Debian 10 in den offiziellen Paketquellen enthalten ist. Allerdings kann Java 11 zu [Problemen](https://bugs.launchpad.net/ubuntu/+source/openjdk-lts/+bug/1838740) mit Java3D führen, daher wird das ältere Java 8 (1.8) empfohlen und in dieser Anleitung verwendet.
+Teilweise funktionert auch ein (Open) JDK in Version 11, das beispielsweise bei Debian in den offiziellen Paketquellen enthalten ist. Allerdings kann Java 11 zu [Problemen](https://bugs.launchpad.net/ubuntu/+source/openjdk-lts/+bug/1838740) mit Java3D führen, daher wird das ältere Java 8 (1.8) empfohlen und in dieser Anleitung verwendet.
 ```
 
 ### 2. Eclipse installieren
@@ -50,11 +59,11 @@ Alternativ kann auch [Visual Studio Code](https://de.wikipedia.org/wiki/Visual_S
 ## II. Compiler für simulierte Bots (x86)
 
 * **Linux**: gcc Toolchain über die Paketverwaltung installieren:
-  * Debian 10:
+  * Debian 10/11/12:
   ```shell
   sudo apt-get install build-essential manpages-dev git
   ```
-  * RHEL/Rocky 8/9, Fedora (36):
+  * RHEL/Rocky 8/9, Fedora:
   ```shell
   sudo dnf groupinstall "Development Tools"
   sudo dnf install gcc-c++
@@ -83,11 +92,11 @@ Dieser Schritt ist nicht erforderlich, wenn Visual Studio Code als IDE mit Platf
 ```
 
 * **Linux**: 
-  * Debian 10:
+  * Debian 10/11/12:
     ```shell
     sudo apt-get install gcc-avr avr-libc avrdude
     ```
-  * Fedora (36):
+  * Fedora:
     ```shell
     sudo dnf install avr-gcc-c++ avr-libc avr-libc-doc avrdude
     ```
@@ -189,4 +198,4 @@ Die Datei `ct-Bot.exe` bzw. `ct-Bot` beendet sich zügig wieder, wenn sie keinen
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 09.10.2022
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 15.10.2023

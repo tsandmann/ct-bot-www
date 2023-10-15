@@ -27,13 +27,13 @@ chmod +x run_eclipse.sh
 # ./run_eclipse.sh .
 ```
 
-Als `VERSION` kann explizit eine Eclipse-Version angegben werden wie beispielsweise `2022-12` oder auch `latest`, um die neueste (geladene) Version zu starten:
+Als `VERSION` kann explizit eine Eclipse-Version angegben werden wie beispielsweise `2023-09` oder auch `latest`, um die neueste (geladene) Version zu starten:
 ```shell
 ./run_eclipse.sh . latest
 ```
 
 ```note
-Die Größe dieses Images beträgt ca. 1,4 GB.
+Die Größe dieses Images beträgt ca. 1,6 GB.
 ```
 
 ```tip
@@ -50,13 +50,13 @@ chmod +x run_eclipse-rpi.sh
 ```
 
 ```note
-Diese Variante wird nur benötigt, wenn der ct-Bot eine Raspberry-Pi-Erweiterung hat. Durch die zusätzliche Toolchain für den Raspberry Pi ist das Image ca. 2,5 GB groß.
+Diese Variante wird nur benötigt, wenn der ct-Bot eine Raspberry-Pi-Erweiterung hat. Durch die zusätzliche Toolchain für den Raspberry Pi ist das Image ca. 2,7 GB groß.
 ```
 
 ### Standalone ct-Sim
 
 ```tip
-Die ct-Sim-Images sind nützlich, falls nur der ct-Sim benötigt wird (z.B. wenn die Tools für die ct-Bot-Programmierung eh schon vorhanden sind), die Installation einer kompatiblen Java-Laufzeitumgebung aber vermieden werden soll oder nicht möglich ist. Die Größe dieser Images beträgt knapp 600 MB.
+Die ct-Sim-Images sind nützlich, falls nur der ct-Sim benötigt wird (z.B. wenn die Tools für die ct-Bot-Programmierung eh schon vorhanden sind), die Installation einer kompatiblen Java-Laufzeitumgebung aber vermieden werden soll oder nicht möglich ist. Die Größe dieser Images beträgt knapp 750 MB.
 ```
 
 #### Release-Version
@@ -104,7 +104,7 @@ oder
 # ./run_eclipse-rpi.sh .
 ```
 
-Als `VERSION` kann explizit eine Eclipse-Version angegben werden wie beispielsweise `2022-12` oder auch `latest`, um die neueste (geladene) Version zu starten:
+Als `VERSION` kann explizit eine Eclipse-Version angegben werden wie beispielsweise `2023-09` oder auch `latest`, um die neueste (geladene) Version zu starten:
 ```shell
 ./run_eclipse.sh . latest
 ```
@@ -164,12 +164,12 @@ Die Start-Skripte starten die Container mit der Option `--rm`, so dass sie nach 
 
 ```shell
 podman pull IMAGE_REPO:VERSION
-# podman pull docker.io/tsandmann/ctbot-eclipse:2022-12
+# podman pull docker.io/tsandmann/ctbot-eclipse:2023-09
 ```
 oder
 ```shell
 docker pull IMAGE_REPO:VERSION
-# docker pull docker.io/tsandmann/ctbot-eclipse:2022-12
+# docker pull docker.io/tsandmann/ctbot-eclipse:2023-09
 ```
 
 Um die neueste verfügbare Version zu laden:
@@ -200,10 +200,10 @@ git clone https://github.com/tsandmann/ctbot-container.git
 cd ctbot-container
 
 ./build_eclipse.sh VERSION 
-# ./build_eclipse.sh 2022-12
+# ./build_eclipse.sh 2023-09
 
 ./build_eclipse-rpi.sh VERSION
-# ./build_eclipse-rpi.sh 2022-12
+# ./build_eclipse-rpi.sh 2023-09
 
 ./build_ctsim.sh VERSION
 # ./build_ctsim.sh 2.29.2
@@ -222,4 +222,4 @@ cd ctbot-container
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 11.01.2023
+Autor: <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 15.10.2023
