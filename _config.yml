@@ -1,4 +1,4 @@
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: carlosperate/jekyll-theme-rtd@v1.2.0
 title: ct-Bot und ct-Sim
 description: The free and open source robotic project
 url: 'https://www.ct-bot.de'
