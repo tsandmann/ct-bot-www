@@ -20,8 +20,7 @@ Zum Projekt gibt es viel Dokumentation, hier ein paar generelle Anlaufadressen:
 
 ## Support
 
-1. Direkter Kontakt im [Chat](../README.md#community-und-support)
-1. Das <a href="https://www.ctbot.de" target="_blank">Forum</a>
+Direkter Kontakt im [Chat](../README.md#community-und-support).
 
 ## Testen/Spielen ohne Geld für Hardware auszugeben
 
@@ -56,4 +55,4 @@ Beim Überprüfen des eigenen Hardwareaufbaus hilft das <a href="https://github.
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 30.09.2023
+Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Stand: 02.04.2026

@@ -17,15 +17,11 @@ Für den direkten Austausch in der Community gibt es einen <a href="https://de.w
   * Direktzugang zum ct-Bot-Channel über <a href="https://app.element.io/#/room/#ctbot:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbot:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
   * Direktzugang zum News-Channel über <a href="https://app.element.io/#/room/#ctbotnews:matrix.org" target="_blank">Element-Web</a> oder <a href="https://matrix.to/#/#ctbotnews:matrix.org" rel="noopener" target="_blank">Matrix Client App</a>
 
-## Forum
-
-Unter <a href="https://www.ctbot.de" target="_blank">www.ctbot.de</a> ist das Community-Forum zum ct-Bot und zu verwandten Themen zu finden. Es besteht bereits seit der Anfangszeit des Projekts und enthält somit nicht nur Support zum ct-Bot sowie aktuelle Diskussionen zur Zukunft des Projekts, sondern auch die zugehörige Historie.
-
 # Anleitungen und Dokumentation
 
 ## <a href="https://github.com/Nightwalker-87/ct-bot-doku/blob/master/doc/wiki_main.md" target="_blank">Projektdokumentation</a>
 
-Derzeit befindet sich die Projektdokumentation in Überarbeitung (siehe auch <a href="https://www.ctbot.de/viewtopic.php?f=34&t=1219" target="_blank">Diskussion im Forum</a>). Im Zuge dieser werden sowohl sämtliche Informationen des ehemaligen Trac-Wikis als auch des Community-Wikis in eine gemeinsame Projektdokumentation portiert. Temporär sind die Inhalte des ehemaligen Trac-Wikis von Heise zusätzlich als <a href="https://github.com/tsandmann/ct-bot-doku/tree/master/_tmp_trac_wiki_export" target="_blank">Archiv</a> verfügbar. Außerdem existiert noch ein Community-Wiki, dessen noch nicht portierte Inhalte unter <a href="https://wiki.ctbot.de" target="_blank">wiki.ctbot.de</a> verfügbar bleiben. 
+Derzeit befindet sich die Projektdokumentation in Überarbeitung. Im Zuge dieser werden sowohl sämtliche Informationen des ehemaligen Trac-Wikis als auch des Community-Wikis in eine gemeinsame Projektdokumentation portiert. Temporär sind die Inhalte des ehemaligen Trac-Wikis von Heise zusätzlich als <a href="https://github.com/tsandmann/ct-bot-doku/tree/master/_tmp_trac_wiki_export" target="_blank">Archiv</a> verfügbar. 
 
 Ein paar grundlegende Informationen und Anleitungen für Neueinsteiger sind direkt hier auf der Projektwebseite
 zu finden, das Menü links gruppiert sie in chronologischer Reihenfolge als Empfehlung für Einsteiger. Einen guten Überblick über das gesamte Projekt geben außerdem die [c't-Artikel](first-steps/2_ct-articles.md).
@@ -69,4 +65,4 @@ Das Software-Framework des ct-Bot erfüllt sehr unterschiedliche Anforderungen:
 ---
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="images/license.svg" alt="License: CC BY-SA 4.0" style="left;margin-left:0;margin-right:1em;" /></a><br>
-Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Bild: *ct-Bot ohne Kabel* von <a href="https://github.com/robotfreak" target="_blank" style="color:#3c454e;">Peter Recktenwald</a> (CC BY-SA 3.0) \| Stand: 14.04.2024
+Autoren: Benjamin Benz, <a href="https://github.com/tsandmann" target="_blank" style="color:#3c454e;">Timo Sandmann</a> \| Bild: *ct-Bot ohne Kabel* von <a href="https://github.com/robotfreak" target="_blank" style="color:#3c454e;">Peter Recktenwald</a> (CC BY-SA 3.0) \| Stand: 02.04.2026
