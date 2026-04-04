@@ -1,4 +1,4 @@
-remote_theme: carlosperate/jekyll-theme-rtd@v1.2.0
+remote_theme: JV-conseil/jekyll-theme-read-the-docs
 title: ct-Bot und ct-Sim
 description: The free and open source robotic project
 url: 'https://www.ct-bot.de'
